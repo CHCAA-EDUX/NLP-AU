@@ -1,4 +1,4 @@
-# Language Analytics - Spring 2021
+# Natural Language Processing - Fall 2021
 
 This repository contains all of the code and data related to the Fall 2021 module _Natural Language Processing_ as part of the  kandidatuddannelsen in [Cognitive Science](https://kandidat.au.dk/cognitivescience/) at Aarhus University.
 
