@@ -70,7 +70,7 @@ Other suggested readings might be given in lectures related to more specific top
 
 * Coenen, A., Reif, E., Yuan, A., Kim, B., Pearce, A., Viégas, F., Wattenberg, M. (2020). "Visualizing and Measuring the Geometry of BERT", 33rd Conference on Neural Information Processing Systems.
 * Devlin, J., Chang, M., Lee, K., & Toutanova, K. (2019). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", _Proceedings of NAACL-HLT 2019_, 4171–4186.
-* Enevoldsen, K., Hansen, L., & Nielbo, K.L (2021). 'DaCy: A Unified Framework for Danish NLP", arXiv:2107.05295 [cs.CL]
+* Enevoldsen, K., Hansen, L., & Nielbo, K.L (2021). "DaCy: A Unified Framework for Danish NLP", arXiv:2107.05295 [cs.CL]
 * Ettinger, A. (2020). "What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models", _Transactions of the Association for Computational Linguistics_, 8, 34–48.
 * Honnibal, M., Montani, I., Van Landeghem, S., & Boyd, A. (2020). "spaCy: Industrial-strength natural language processing in python". Zenodo. <https://doi.org/10.5281/zenodo.1212303>
 * Hunston, S. (2002). _Corpora in Applied Linguistics_. Cambridge: Cambridge University Press.
