@@ -79,7 +79,7 @@ Other suggested readings might be given in lectures related to more specific top
 * Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). "Efficient Estimation of Word Representations in Vector Space". [arXiv:1301.3781](https://arxiv.org/abs/1301.3781) [cs.CL]
 * Nielsen, M. (2019). "Neural Networks and Deep Learning", available online [here](http://neuralnetworksanddeeplearning.com/). Accessible as single PDF [here](https://static.latexstudio.net/article/2018/0912/neuralnetworksanddeeplearning.pdf)
 * Pennington, J., Socher, R., & Manning, C.D. (2014). "GloVe: Global Vectors for Word Representation", Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), 1532-1543.
-* Rogers, A., Kovaleva, O., & Rumshisky, A. (2020). _Transactions of the Association for Computational Linguistics_, 8, 842-866.
+* Rogers, A., Kovaleva, O., & Rumshisky, A. (2020). "A Primer in BERTology: what we know about about how BERT works", _Transactions of the Association for Computational Linguistics_, 8, 842-866.
 * Urban, C.J & Gates, K.M. (2020). "Deep Learning: A Primer for Psychologists", _Psychological Methods_.
   * (NB: Article to be published 2022, open source pre-print available through library.)
 * van Miltenburg, E., van der Lee, C., Krahmer, E. (2021). "Preregistering NLP research", _Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies_, 613-623.
