@@ -46,3 +46,4 @@ For the class we will introduce pytest and how to use it to automatically test c
   - If you werent there for day 3 of the workshop feel free to use the "answer code", but you might need to read chapter 1-2 in the book.
 
 -->
+#change
