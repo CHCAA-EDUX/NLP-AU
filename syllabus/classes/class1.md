@@ -4,7 +4,7 @@ This class will take us through the work stack we will be using for natural lang
 ## Preparation for class
 
 ### Slack
-You should all have recieved an invite to slack on Brightspace under the NLP class. You are expected to have set this up before class.
+You should all have received an invite to slack on Brightspace under the NLP class. You are expected to have set this up before class.
 
 ### Github
 For the assigments and code materials for classes we will be using Github. If you are unfamiliar with Github spend some time before the class to familiarize yourself with it for instance using [the Github get started guide](https://docs.github.com/en/get-started). Another good place to start is the [module](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/) on how to use Github with visual studio code.
