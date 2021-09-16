@@ -23,9 +23,9 @@ Remember you can find out more about the function using `help(check_tokenization
 ### Part 2
 Calculate the pointwise mutual information (PMI or MI) for each word in the text. Recall that PMI can  be calculated as:
 
-$$
+```math
 PMI(w_1, w_2) = log \frac{p(w_1, w_2)}{p(w_1) \cdot p(w_2)}
-$$
+```
 
 Where $w_i$ is a words. This is equivalent to calcuting the ratio between the observed cooccurances between $w_1$ and $w_2$ and the expected cooccurances given the word frequencies and is essentially a measure for how much more- or less likely we are to see the two words co-occur. For this task let us define cooccurance as being a part of the same bigram.
 
