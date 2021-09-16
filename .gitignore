@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# DS_Store
+.DS_Store
+syllabus/classes/class2/train_corpus/0.txt
