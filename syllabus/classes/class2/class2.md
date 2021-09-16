@@ -32,7 +32,7 @@ Where $w_i$ is a words. This is equivalent to calcuting the ratio between the ob
 > *Note*: When dealing with the logs you can always rewrite multiplication into addition e.g. $log(a \cdot b) = log(a) + log(b)$. This is computationally faster and prevents numerical errors when dealing with very low or very high probabilities.
 
 This task can reasonable be split into a couple of subtask:
-  - 1) Calculating the frequncies of each word.
+  - 1) Calculating the frequencies of each word.
   - 2) Calculate the frequency of each bigram.
   - 3) From this calculate the PMI of the words in the corpus.
   
