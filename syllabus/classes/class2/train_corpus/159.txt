@@ -1,0 +1,1 @@
+For now, this is the list of countries for which we will probably need the FX and/or inflation curves. I will send the specifics per Andre later today. India Philippines Bolivia Jamaica Guatemala Venezuela Columbia Puerto Rico CPI only (I need historical inflation data, as well) 
