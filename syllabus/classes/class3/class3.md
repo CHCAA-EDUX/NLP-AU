@@ -115,5 +115,34 @@ You can combine paths using `os.path.join()`.
 ## Plan for class
 
 - 1) Talk about exercise 1
+- 2) Filter a text to keep only the lemma of nouns, adjectives and verbs
 
-... to be updated.
+
+<details>
+    <summary> Deconstruction of the task </summary>
+
+The task can meaningfully be deconstructed into a series of functions on the token level:
+- A filter function, which decided if a token should be kept.
+- A function which extract the lemma
+
+These function can then be combined and used iteratively over the tokens of a document.
+
+
+</details>
+
+<br /> 
+
+- 3) Calculate the ratio of pos-tags in texts. The ratios of pos-tags on other linguistic feature have for example been [linked](https://www.nature.com/articles/s41537-021-00154-3) to scizophrenia which e.g. use less adverbs, adjectives, and determiners (e.g., “the,” “a,”).
+
+<details>
+    <summary> Deconstruction of the task </summary>
+
+The task can meaningfully be deconstructed into a series of functions:
+- A function (or list comprehension) which takes a list of tokens (Doc) and extracts the pos tag for each
+- A function which counts these. *Hint* look up the `Counter` class.
+
+</details>
+
+<br /> 
+
+- 4) If you get the time calculate PMI (see last weeks class) using the tokenization and sentence segmentation of spaCy.
