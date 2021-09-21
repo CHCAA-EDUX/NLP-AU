@@ -10,17 +10,8 @@ Steps:
 # run using 
 # bash path_to_folder/setup_git.sh
 
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-#sudo apt update
-sudo apt install gh
-
 git config --global user.email "yourmail@mail.com"
 git config --global user.name "Your Name (UCloud)"
-
-gh auth login --with-token < git_token.txt
-# assumes the git_token.txt contains a valid github token if you don't have one creat it following this guide
-# https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
 ```
 
 Make sure to fill in the correct username and email. User name does not have to be your GitHub username. This will set up GitHub, but you also need to:
@@ -34,3 +25,6 @@ bash path_to_folder/setup_git.sh
 ```
 
 to set up git. If you want to use the VS code github integration you will still need to log in using the GitHub access token, which can simply be copied from the file `git_token.txt`.
+
+## Collaborate with VS Code
+In the [VS code documentation](https://docs.cloud.sdu.dk/Apps/coder.html?highlight=coder%20share#start-live-share) on UCloud there is a guide to setting up live share on UCloud.
