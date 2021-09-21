@@ -1,3 +1,5 @@
+###Class 3
+
 '''
 Use the following commands in the terminal before class: 
 
