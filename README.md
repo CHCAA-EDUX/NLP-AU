@@ -38,3 +38,4 @@ Your lecturer for this course will be [Ross](au.dk/en/rdkm@cas); the classrooms 
 
 All communication to you will be sent _both_ on Slack _and_ via Blackboard. If you need to get in touch with Ross, Slack should be the first place to try - you'll likely get a quicker response!
 
+
