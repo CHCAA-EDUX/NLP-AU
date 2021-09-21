@@ -24,7 +24,7 @@ Save the files and you can now close the session. Next time you start a session 
 bash path_to_folder/setup_git.sh
 ```
 
-to set up git. If you want to use the VS code github integration you will still need to log in using the GitHub access token, which can simply be copied from the file `git_token.txt`.
+to set up git. If you want to use the VS code GitHub integration you will still need to log in using the GitHub access token, which can simply be copied from the file `git_token.txt`.
 
 ## Collaborate with VS Code
 In the [VS code documentation](https://docs.cloud.sdu.dk/Apps/coder.html?highlight=coder%20share#start-live-share) on UCloud there is a guide to setting up live share on UCloud.
