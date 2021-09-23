@@ -55,6 +55,8 @@ i) about what is intended use (or benefit) of the `doc`-object
 Doc allows access to sentences and named entities, exporting annotations to numpy arrays, 
 and losslessly serialize to compressed binary strings.
 
+And 
+
 ii) What are the two ways in which I can create an `Doc` object?
 
 By Doc.__init__ 
