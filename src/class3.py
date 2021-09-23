@@ -108,4 +108,12 @@ for element in counts:
 # counts = Counter([token.pos_ for token in doc])
 #counts.values can extract the values. Frida did this for each list and then zipped them
 
-
+'''
+Exercise 5
+Calculate the mean dependacy distance
+'''
+# How do we get the distance between the words?
+# We have a token
+#token.head 
+# which token it refers to
+# Take the indices of the tokens .i and subtract the two indices. (Remember to get the absolute value)
