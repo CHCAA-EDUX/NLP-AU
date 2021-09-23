@@ -26,7 +26,8 @@ ii) What are the two ways in which I can create a Doc object?
 '''
 # A Doc is a sequence of Token objects
 
-# The intended use as a container for accessing linguistic annotations.
+# The intended use is as a container for accessing linguistic annotations.
+# More information about the individual tokens. 
 
 # I can make a doc object via the nlp function
 doc2 = nlp("this is a doc")
@@ -37,47 +38,74 @@ from spacy.tokens import Doc
 words = ["hello", "world", "!"]
 spaces = [True, False, False]
 doc = Doc(nlp.vocab, words=words, spaces=spaces)
-print(doc)
 
+
+# or with the 
+#doc = Doc.__init__() 
+# Classes are usually denoted with uppercase
 ''' 
 Exercise 2: Make a corpus loader
 '''
 import sys, os
 from pathlib import Path
+path = "syllabus/classes/data/train_corpus"
+list_of_files = os.listdir(path)
+#print(len(list_of_files))
+
+#path_to_file = "syllabus/classes/data/train_corpus/1.txt"
+
+file_list = []
 
 def corpus_loader(folder: str):
     
     #A corpus loader function which takes in a path to a 
     #folder and returns a list of strings.
-    infile = os.path.join(folder)
 
-    for filepath in Path(infile).glob("*.txt"):
-        with open(filepath, "r", encoding = "utf-8") as file:
-            loaded_text = file.read()
-            
-            # Split text into sentences
-            text = loaded_text.split('.')
+    for file in folder:
+        path_to_file = os.path.join("syllabus/classes/data/train_corpus", str(file))
+        with open(path_to_file) as f:
+            document = f.read()
+            file_list.append(document)
 
-            # split sentences into tokens
-            text = loaded_text.split(' ')
+    return list(file_list)
+
+texts = corpus_loader(folder = list_of_files)
+doc = nlp(texts[0])
+'''
+Exercise 3: 
+Filter a text to keep only the lemma of nouns, adjectives and verbs
+'''
+kept_tokens = []
+for token in doc:
+    pos = ['NOUN', 'VERB', 'ADJ']
+    if token.pos_ in pos:
+        token = token.lemma_
+        kept_tokens.append(token)
+
+#print(kept_tokens)
+'''
+# Exercise 4
+Calculate the ratio of pos-tags in texts. 
+The ratios of pos-tags on other linguistic feature have for example been linked to scizophrenia 
+which e.g. use less adverbs, adjectives, and determiners (e.g., “the,” “a,”).
+'''
+from collections import Counter
+tokens_list = []
+
+for token in doc:
+    tokens_list.append(token.pos_)
+
+counts = Counter(tokens_list)
+
+for element in counts:
+    print(str(element), round(counts[str(element)]/len(doc)*100, 1), '%')
 
 
-    return text
-
-#corpus_loader(folder = "train_corpus")
 
 
+## other ways
+#You can also do count as a list comprehension
+# counts = Counter([token.pos_ for token in doc])
+#counts.values can extract the values. Frida did this for each list and then zipped them
 
-infile = os.path.join("syllabus/xlasses/data/train_corpus")
 
-for filepath in Path(infile).glob("*.txt"):
-    with open(filepath, "r", encoding = "utf-8") as file:
-        loaded_text = file.read()
-            
-        # Split text into sentences
-        text = loaded_text.split('.')
-
-        # split sentences into tokens
-        text = loaded_text.split(' ')
-
-        print(text)
