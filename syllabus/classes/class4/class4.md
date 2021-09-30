@@ -90,10 +90,10 @@ def term_freq(tokens: List[str]) -> dict:
 *Hint*: Recall last weeks exercise
 
 ### Document frequency: 
-Similarly you are required to have a function which calculates the document frequency:
+Similarly, you are required to have a function that calculates the document frequency:
 
 ```
-df(t) = occurrence of t in document
+df(t) = number of times t occur in a document
 ```
 
 The structure of the function could look something like this:
