@@ -115,9 +115,11 @@ For this class we will be calculating using the TF-IDF as input to our model. Yo
 ## Plan for class
 
 - 1) Talk about the preperations for class
-- 2) implement a logistic regression classifier in pytorch
-- 3) apply the logistic regression for sentiment classification
+- 2) Introduction to pytorch
+- 3) implement a logistic regression classifier in pytorch
+- 4) apply the logistic regression for sentiment classification
   - First using term frequncies
+  - then using tf-idf
 
 To convert the dictionary created to a vector we will be uisng the[DictVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.DictVectorizer.html) from sklearn:
 ```
@@ -139,10 +141,12 @@ Where N is the number of documents.
 
 > **Optional**: Consider why we add 1 and why we apply the log.
 
-- 4) Compare performance what performs better? Is there things you could do to improve performance? Some things you might consider are:
+- 5) Compare performance what performs better? Is there things you could do to improve performance? Some things you might consider are:
     - Are all words relevant? Could we filter some of these?
     - Should "play", "playing", and "played" be considered different words or the same?
     - What about casing? Does it matter?
     - ...
 
 > **Optional**: You can compare your performance on SST2 on the benchmark website [paperswithcode](https://paperswithcode.com/sota/sentiment-analysis-on-sst-2-binary). How far are you off state-of-the-art-models?
+
+
