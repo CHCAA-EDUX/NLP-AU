@@ -75,7 +75,7 @@ def term_freq(tokens: 'list[str]') -> dict:
 def doc_freq(tokens: 'List[List[str]]') -> dict:
 
     """
-    Takes in a list of documents which each is a list of tokens and return a dictionary of frequencies for each token over all the documents. E.g. {"Aarhus": 20, "the": 2301, ...}
+    Takes in a list of documents which each is a list of tokens and return a dictionary of frequencies for each token aka whether it is mentioned at least once in each documents. E.g. {"Aarhus": 20, "the": 2301, ...}
     """
     flatten_tokens = flatten(tokens) # only if it is a list of lists
     #print()
@@ -83,7 +83,30 @@ def doc_freq(tokens: 'List[List[str]]') -> dict:
     
     return df
 
-print(doc_freq(string_list))
+#print(doc_freq(string_list))
+
+def doc_freq2(tokens: 'List[List[str]]') -> dict:
+
+    """
+    Takes in a list of documents which each is a list of tokens and return a dictionary of frequencies for each token aka whether it is mentioned at least once in each documents. E.g. {"Aarhus": 20, "the": 2301, ...}
+    """
+    unique_tokens = []
+    #flatten_tokens = flatten(tokens) # only if it is a list of lists
+    for document in tokens:
+        uniqueWords = []
+        # Get the unique tokens in the document and append to list
+        for i in document:
+            if not i in uniqueWords:
+                uniqueWords.append(i) # put in this for checking each doc
+                unique_tokens.append(i) #the final list containing the unique tokens over each doc
+
+        # Now for all the document unique words, use Counter
+
+    df = dict(Counter(unique_tokens))
+    
+    return df
+
+print(doc_freq2(string_list))
     
 
 
