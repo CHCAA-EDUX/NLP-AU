@@ -1,7 +1,6 @@
 ###Class 3
 
 '''
-j
 Use the following commands in the terminal before class: 
 
 pip install spacy
