@@ -50,8 +50,8 @@ Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 
 |  36   |    1    | Introductions               | [Work stack - Slack, UCloud, Github](classes/class1.md)                 | --                                           |
 |       |    2    | Simple text processing      | [Tokenization, word counts, collocation](classes/class2/class2.md)      | _Hunston 2002, Chapters 1,2 4_               |
 |       |    3    | From text processing to NLP | [Lemmatization, part-of-speech, dependencies](classes/class3/class3.md) | _spaCy documentation, Enevoldsen et al 2021_ |
-|       |    4    | Classification 1            | [Logistic regression and vectorization](classes/class4/class4.md)     | _Jurafsky & Martin 2020, Chapter 5_          |
-|       |    5    | Classification 2            | Neural networks with pytorch                                            | _Nielsen 2019, Chapter 1 (and throughout!)_  |
+|       |    4    | Classification 1            | [Logistic regression and vectorization](classes/class4/class4.md)       | _Jurafsky & Martin 2020, Chapter 5_          |
+|       |    5    | Classification 2            | [Neural networks with pytorch](classes/class5/class5.md)                       | _Nielsen 2019, Chapter 1 (and throughout!)_  |
 |       |    6    | Word embeddings             | Named Entity Recognition                                                | _Mikolov et al 2013; Pennington et al 2014_  |
 | BREAK |         |                             |                                                                         |                                              |
 |  43   |    7    | Language Modelling 1        | Recurrent Neural Networks, Long short-term memory networks              | _Urban & Gates 2020_                         |
