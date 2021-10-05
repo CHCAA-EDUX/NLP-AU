@@ -17,8 +17,6 @@ dataset = load_dataset("glue", "sst2")
 train = dataset["train"]
 
 
-
-
 def term_freq(tokens: List[str]) -> dict:
     """
     Takes in a list of tokens (str) and return a dictionary of term frequency of each token
