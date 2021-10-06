@@ -17,8 +17,8 @@ dataset = load_dataset("glue", "sst2")
 # select the train split
 train = dataset["train"]
 
-tokens = ('this', 'is', 'a', 'test', 'this', 'this')
-tokens2= ('this', 'is', 'a', 'test', 'this', 'rabbit')
+tokens = ['this', 'is', 'a', 'test', 'this', 'this']
+tokens2= ['this', 'is', 'a', 'test', 'this', 'rabbit']
 
 docs = (tokens, tokens2)
 
@@ -40,8 +40,9 @@ def doc_freq(docs):
     """
     doc_freq = Counter()
     for d in docs:
-        cur_token_counts = Counter([token for token in d])
+        unique_tokens = set(d)
+        cur_token_counts = Counter([token for token in unique_tokens])
         doc_freq = doc_freq + cur_token_counts
     return(doc_freq)    
 
-doc_freq(docs)
+print(doc_freq(docs))
