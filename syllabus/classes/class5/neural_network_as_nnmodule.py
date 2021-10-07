@@ -8,7 +8,7 @@ from sklearn import datasets
 
 class Model(nn.Module):
     def __init__(self, n_input_features = 10):
-        super(Model, self).__init__()
+        super(Model, self).__init__() #initialises the super class, a clever class that makes some shortcuts for coding in nn
         self.linear1 = nn.Linear(n_input_features, 30)
         self.linear2 = nn.Linear(30, 30)
         self.linear3 = nn.Linear(30, 1)

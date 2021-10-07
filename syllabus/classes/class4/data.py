@@ -5,7 +5,7 @@ from datasets import load_dataset
 # compare performance with others:
 # https://paperswithcode.com/sota/sentiment-analysis-on-sst-2-binary
 
-dataset = load_dataset("glue", "sst2")
+dataset = load_dataset("emotion")
 
 train = dataset["train"]
 

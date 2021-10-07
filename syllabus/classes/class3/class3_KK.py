@@ -70,6 +70,10 @@ Before the class, you should have a corpus loader ready. This should be able to 
 '''
 
 def corpus_loader(folder):
+    '''
+    A corpus loader function which takes in a path to a 
+    folder and returns a list of strings.
+    '''
     import os
     list_of_files = os.listdir(folder)
     document_list  = []
@@ -81,10 +85,7 @@ def corpus_loader(folder):
 
 corpus_loader('/work/NLP/NLP-E21/syllabus/classes/data/train_corpus')
 
-'''
-    A corpus loader function which takes in a path to a 
-    folder and returns a list of strings.
-'''
+
 ## Plan for class
 
 #1) Talk about exercise 1
