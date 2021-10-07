@@ -10,6 +10,16 @@ import spacy
 from neural_network_as_nnmodule import Model
 from src.tf import term_freq
 
+'''
+Once choosing the dataset e.g. emotion, the text needs 
+to represented as a vector e.g. term_freq or tfidf. 
+
+Dictvectorizer allows one to turn a dictionary representation into 
+a vector, before feeding it to the model.
+
+The label needs to be OneHotEncoded
+'''
+
 #Import english dictionary
 nlp = spacy.load("en_core_web_sm")
 
