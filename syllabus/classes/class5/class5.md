@@ -1,5 +1,5 @@
 
-# Class 3: Classification and vectorization
+# Class 5: Classification and vectorization
 
 ## Preparation for class
 
@@ -29,3 +29,9 @@ Before the class you are required to:
 ## Assignment 2 
 
 You can sign up for the assignment 2 [here](https://classroom.github.com/a/qmdoEYhh).
+
+<!--
+For next time:
+
+Introduce people to the tfidf vectorizer (too much time was spent moving from text to input) 
+-->
