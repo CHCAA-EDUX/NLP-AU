@@ -55,3 +55,4 @@ for epoch in range(epochs):
     # some print to see that it is running
     if (epoch + 1) % 1000 == 0:
         print(f"epoch: {epoch+1}, loss = {loss.item():.4f}")
+        
