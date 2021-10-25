@@ -54,7 +54,7 @@ Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 
 |       |    5    | Classification 2            | [Neural networks with pytorch](classes/class5/class5.md)                | _Nielsen 2019, Chapter 1 (and throughout!)_  |
 |       |    6    | Word embeddings             | [Exploring word embeddings](classes/class6/class6.ipynb)                | _Mikolov et al 2013; Pennington et al 2014_  |
 | BREAK |         |                             |                                                                         |                                              |
-|  43   |    7    | Language Modelling 1        | Recurrent Neural Networks, Long short-term memory networks              | _Urban & Gates 2020_                         |
+|  43   |    7    | Language Modelling 1        | [Recurrent Neural Networks, Long short-term memory networks](classes/class7/class7.md)              | _Urban & Gates 2020_                         |
 |       |    8    | Language Modelling 2        | Attention                                                               | _Vaswani et al 2017; Lindsay et al 2020_     |
 |       |    9    | BERT                        | Implementing (parts of) BERT                                            | _Devlin et al 2019_                          |
 |       |   10    | Project presentations       | Implementing (parts of) BERT                                            | _Ettinger 2020; Rogers et al 2020_           |
