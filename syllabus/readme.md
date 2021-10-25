@@ -61,6 +61,9 @@ Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 
 |       |   11    | More BERT                   | Exploring layers                                                        | _Coenen et al 2019_                          |
 |       |   12    | Data bias and ethics        | Augmentation and data bias                                              | _van Miltenburg et al 2021_                  |
 
+Typically lectures take place 14:00 - 16:00 at 1483-251 and classes 13:00 - 15:00 1481-237.
+
+
 ## Reading ##
 
 ## Bibliography of Assigned Readings
