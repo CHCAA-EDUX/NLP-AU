@@ -75,7 +75,7 @@ For the class you are required to have a function which takes in a list of strin
 tf(t,d) = count of t in d / number of words in d
 ```
 
-where t is the term (word/token) and d is the document.
+where *t* is the term (word/token) and *d* is the document.
 
 
 The structure of the function could look something like this:
@@ -108,25 +108,25 @@ def doc_freq(List[List[str]]) -> dict:
 
 ### TF-IDF: Term frequency inverse document frequency
 
-For this class we will be calculating using the TF-IDF as input to our model. You might optionally want to look at this [medium](https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089) article.
+For this class, we will be using the TF-IDF as input to our model. You might optionally want to look at this [medium](https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089) article.
 
 
 
 ## Plan for class
 
-- 1) Talk about the preperations for class
-- 2) Introduction to pytorch
-- 3) implement a logistic regression classifier in pytorch
+- 1) Talk about the preparations for class
+- 2) Introduction to PyTorch
+- 3) implement a logistic regression classifier in PyTorch
 - 4) apply the logistic regression for sentiment classification
-  - First using term frequncies
-  - then using tf-idf
+  - First using term frequencies
+  - then using TF-IDF
 
-To convert the dictionary created to a vector we will be uisng the[DictVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.DictVectorizer.html) from sklearn:
+To convert the dictionary created to a vector we will be using the [DictVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.DictVectorizer.html) from `sklearn`:
 ```
 from sklearn.feature_extraction import DictVectorizer
 ```
 
-  - Then using tf-idf, recall that TF-IDF of a token in a document is defined as:
+  - Then using TF-IDF, recall that TF-IDF of a token in a document is defined as:
 
 ```
 tf-idf(t, d) = tf(t, d) * idf(t)
@@ -137,7 +137,7 @@ Where the inverse document frequency is defined as:
 idf(t) = log(N/(df(t) + 1))
 ```
 
-Where N is the number of documents. 
+Where *N* is the number of documents.
 
 > **Optional**: Consider why we add 1 and why we apply the log.
 
@@ -147,6 +147,6 @@ Where N is the number of documents.
     - What about casing? Does it matter?
     - ...
 
-> **Optional**: You can compare your performance on SST2 on the benchmark website [paperswithcode](https://paperswithcode.com/sota/sentiment-analysis-on-sst-2-binary). How far are you off state-of-the-art-models?
+> **Optional**: You can compare your performance on SST2 on the benchmark website [paperswithcode](https://paperswithcode.com/sota/sentiment-analysis-on-sst-2-binary). How far are you off state-of-the-art models?
 
 
