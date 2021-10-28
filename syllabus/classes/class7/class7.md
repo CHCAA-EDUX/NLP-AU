@@ -14,17 +14,14 @@ No preparation is required for class. I recommend you spend your time finishing 
 ## Exercise:
 You likely won't have the time to finish this in class, but that is also not the intention as the next assignment you will get will build on this class in particular.
 
-- 0) Get a broad overview of the code `main.py`. This includes getting an initial understanding of
+- 1) Get a broad overview of the code `main.py`. This includes getting an initial understanding of
   - The dataset
   - and the intention of the five steps:
-    - DATASET
-    - CONVERTING EMBEDDING
-    - PREPARING A BATCH
-    - CREATING MODEL
-    - FORWARD PASS
-
-
-
+    - 1.1) DATASET
+    - 1.2) CONVERTING EMBEDDING
+    - 1.3) PREPARING A BATCH
+    - 1.4) CREATING MODEL
+    - 1.5) FORWARD PASS
 
 
 <details>
@@ -39,57 +36,8 @@ I also tried digging a bit deeper into the LSTM implementation in PyTorch but it
 
 <br /> 
 
-
-
-
-- 1) Create documentation for the `gensim_to_torch_embedding` function to understand what it does
-- 2) Convert the section "PREPARING A BATCH" into a function
-- 3) Using this function create a new function that shuffles and batches the training dataset.
-
-<details>
-    <summary>
-    You can conveniently use PyTorch dataset and dataloaders for this. This code should get you started with it.
-    </summary>
-
-```py
-import torch
-
-
-vocab= 1000
-n_texts = 100
-
-# create an example matrix 
-tf_idf = torch.zeros(n_texts, vocab) 
-# or X
-
-labels = torch.zeros(n_texts)
-# or y
-
-from torch.utils.data import TensorDataset, dataloader
-
-# create a dataset with X, y
-ds = TensorDataset(tf_idf, labels)
-
-# create a data loader, which shuffles and batches the dataset
-loader = dataloader.DataLoader(ds, batch_size=10, shuffle=True)
-
-for batch in loader:
-    print(type(batch))
-    print(len(batch))
-    X, y = batch
-    print(X.shape)
-    print(y.shape)
-    
-    # fit model on each batch
-    break # to only print once by stopping the loop
-```
-
-
-</details>
-
-<br /> 
-
-
+- 2) Create documentation for the `gensim_to_torch_embedding` function to understand what it does
+- 3) Convert the section "PREPARING A BATCH" into a function
 - 4) Examine the RNN class
   - Examine the `forward(...)` and discuss the changes to the dimensions
     - *Hint*: You can always perform one step at a time by calling a specific layer in the model, for instance `embedding_output = model.embedding(X)`

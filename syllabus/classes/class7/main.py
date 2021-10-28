@@ -1,7 +1,6 @@
-from typing import List
 from datasets import load_dataset
 import gensim.downloader as api
-
+from util import batch
 
 # DATASET
 dataset = load_dataset("conllpp")
@@ -28,6 +27,14 @@ embedding_layer, vocab = gensim_to_torch_embedding(model)
 
 # PREPARING A BATCH
 
+# shuffle dataset
+shuffled_train = dataset["train"].shuffle(seed=1)
+
+# batch it using a utility function (don't spend time on the function, but make sure you understand the output)
+batch_size = 10
+batches_tokens = batch(shuffled_train["tokens"], batch_size)
+batches_tags = batch(shuffled_train["ner_tags"], batch_size)
+
 
 def tokens_to_idx(tokens, vocab=model.key_to_index):
     """
@@ -39,9 +46,9 @@ def tokens_to_idx(tokens, vocab=model.key_to_index):
     return [vocab.get(t.lower(), vocab["UNK"]) for t in tokens]
 
 
-# sample batch of 10 sentences
-batch_tokens = train["tokens"][:10]
-batch_tags = train["ner_tags"][:10]
+# sample using only the first batch
+batch_tokens = next(batches_tokens)
+batch_tags = next(batches_tags)
 batch_tok_idx = [tokens_to_idx(sent) for sent in batch_tokens]
 batch_size = len(batch_tokens)
 
