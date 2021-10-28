@@ -73,7 +73,7 @@ batch_input, batch_labels = torch.LongTensor(batch_input), torch.LongTensor(
 from LSTM import RNN
 
 model = RNN(
-    embedding_layer=embedding_layer, num_classes=num_classes + 1, hidden_dim_size=256
+    embedding_layer=embedding_layer, output_dim=num_classes + 1, hidden_dim_size=256
 )
 
 # FORWARD PASS
