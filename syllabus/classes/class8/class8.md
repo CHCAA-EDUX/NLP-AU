@@ -1,14 +1,14 @@
 # Class 8: Attention
 
-## Preperations for class
-No preperations for class
+## Preparations for class
+No preparation required for the  class
 
 ## Plan for the class
 - A2 Feedback
 - dot product attention
 - Vote for the coming classes
   - More understanding BERT or more applying BERT
-- Introduction of A3
+- Introduction of A3, you can sign up for it [here](https://classroom.github.com/a/2Xsl5Qby).
 
 
 
@@ -45,7 +45,9 @@ Where $d$ is the dimension of of the embedding and Q, K, V stands for queries, k
 attn = attention[0] # first row
 weighted = attn[0] * E[0] + attn[1] * E[1] + attn[2] * E[2]
 
-# compare the wieghted embedding with the first column in the matrix from 5.
+# compare the wieghted embedding with the first column in the matrix from 5).
+
+mat_from_5[0] - wieghted > 0.001
 ```
 
 There is one problem here. Naturally we have here assumed that Q, K and V is the same
