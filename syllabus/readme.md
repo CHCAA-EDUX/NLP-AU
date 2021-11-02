@@ -55,11 +55,11 @@ Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 
 |       |    6    | Word embeddings             | [Exploring word embeddings](classes/class6/class6.ipynb)                | _Mikolov et al 2013; Pennington et al 2014_  |
 | BREAK |         |                             |                                                                         |                                              |
 |  43   |    7    | Language Modelling 1        | [Recurrent Neural Networks, Long short-term memory networks](classes/class7/class7.md)              | _Urban & Gates 2020_                         |
-|       |    8    | Language Modelling 2        | Attention                                                               | _Vaswani et al 2017; Lindsay et al 2020_     |
-|       |    9    | BERT                        | Implementing (parts of) BERT                                            | _Devlin et al 2019_                          |
-|       |   10    | Project presentations       | Implementing (parts of) BERT                                            | _Ettinger 2020; Rogers et al 2020_           |
-|       |   11    | More BERT                   | Exploring layers                                                        | _Coenen et al 2019_                          |
-|       |   12    | Data bias and ethics        | Augmentation and data bias                                              | _van Miltenburg et al 2021_                  |
+|       |    8    | Language Modelling 2        | [Attention](classes/class8/class8.md)                                                               | _Vaswani et al 2017; Lindsay et al 2020_     |
+|       |    9    | BERT                        | [Project Preperation](classes/class9/class9.md)                                            | _Devlin et al 2019_                          |
+|       |   10    | Project presentations       | Classification with BERT                                            | _Ettinger 2020; Rogers et al 2020_           |
+|       |   11    | More BERT                   | Probing a language model                                                        | _Coenen et al 2019_                          |
+|       |   12    | Data bias and ethics        | Augmentation for detecting bias                                            | _van Miltenburg et al 2021_                  |
 
 Typically lectures take place 14:00 - 16:00 at 1483-251 and classes 13:00 - 15:00 1481-237.
 
