@@ -77,8 +77,7 @@ You have implemented it for the special case where $\sqrt{d} = 1$, however $d$ t
 >Optional:
 >  - O.1) What does the Q, K, V correspond to in this case?
 >  - O.2) Add the normalization ($\sqrt{d}$) to your function, how does this change the outcome?
-
-7) Check the class notebook on inspecting attention. You should mostly disregard the code (with the exception of maybe changing the sentence), but we can now try to explore the attention in an actual model. I have written down a few attentions heads I found to be meaningful. Try to find one or two more.
+>  - O.3) Check the class notebook on inspecting attention. This inspect the attention of a BERT model which we have naturally not looked at yet, but you might find it interesting that these attention layers can be visualized and interpreted. Thus the notebook is mostly to give you the tools to do so. You can mostly disregard the code (with the exception of maybe changing the sentence or the BERT model), but we can try to explore the attention in an actual model. I have written down a few attentions heads I found to be meaningful. Try to find one or two more.
 
 
 ## More on attention
