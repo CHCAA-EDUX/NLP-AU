@@ -1,28 +1,31 @@
 # Class 8: Attention
 
+*Note this class contains laTeX formula which is not rendered in GitHub*
+
 ## Preparations for class
 No preparation required for the  class
+
+<!--
+Preperation for class could in the future be the first exercises and maybe a video on the dot product as a projection and the relation between cosine similarity and the dot product.
+-->
 
 ## Plan for the class
 - A2 Feedback
 - dot product attention
-- Vote for the coming classes
-  - More understanding BERT or more applying BERT
 - Introduction of A3, you can sign up for it [here](https://classroom.github.com/a/2Xsl5Qby).
-
 
 
 ## Exercises on Attention
 
 In the following exercises, we will take a look at dot product attention, we will use word embeddings for this, however these would in the context of encoder-decoder models be hidden states from the decoder and encoder.
 
-1) Calculate the dot product between two word embeddings that you believe are similar
+1) Calculate the dot product between two words embeddings that you believe are similar
 ```
 import gensim.downloader as api
 model = api.load("glove-wiki-gigaword-50")
 ```
 
-2) Calculate the dot product between the two word and a word which you believe is dissimilar
+2) Calculate the dot product between the two words and a word which you believe is dissimilar
 
 3) make the three words into a matrix $E$ and multiply it with its own transpose using matrix multiplication. So $E \cdot E^T$
   - what do the entries in the matrix correspond to? What do you imagine the dot product is? *Hint*, the similarity between vectors (cosine similarity) is exactly the same as the dot product assuming you normalize the length of each vector to 1.
@@ -44,7 +47,7 @@ weighted = attn[0] * model["greetings"] + attn[1] * model["hello"] + attn[2] * m
 
 # compare the weighted embedding with the first column in the matrix from 5).
 
-matrix_from_5[0] - wieghted > 0.001
+matrix_from_5[0] - wieghted < 0.001
 ```
 
 6) Create a function called attention to compute the dot product attention. It should take as input an embedding matrix corresponding to the $h$ and a matrix corresponding to $c$. It should return both the output, but also the attention matrix. Use to compute the dot product attention of the embeddings `["man", "banana"]` and `["woman", "apple", "pineapple"]`.
