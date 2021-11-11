@@ -5,19 +5,25 @@ Thus the code is not intended to be executable.
 
 from typing import Callable, Iterable
 from torch import nn
+import torch
 
 def train(model: nn.Module,
           epochs: int,
           batches: Iterable,
           loss_fn: Callable,
-          val_X, val_y,
+          val_X: torch.Tensor, 
+          val_y: torch.Tensor,
           patience: int) -> nn.Module:
-    """[summary]
+    """ Train a model with early stopping.
 
     Args:
-        model (nn.Module): [description]
-        epochs (int): [description]
-        batches (Iterable): [description]
+        model(nn.Module): The model to train.
+        epochs(int): The number of epochs to train for.
+        batches(Iterable): An iterable of batches to train on.
+        loss_fn(Callable): A function that takes in a batch and returns the loss.
+        val_X(torch.Tensor): The validation data.
+        val_y(torch.Tensor): The validation labels.
+        patience(int): The number of epochs to wait before stopping.
     """
     # initialize an optimizer
     optimizer = ...
@@ -29,7 +35,8 @@ def train(model: nn.Module,
     # while True:
     for epoch in epochs:
         
-        # set the moded to train mode (allow the models parameters to be updated)
+        # set the moded to train mode only relevant if your model includes dropout or batch normalization
+        # our model does not, but it is nice, to generalize this code
         model.train()
 
         for batch in batches:
@@ -47,7 +54,7 @@ def train(model: nn.Module,
             optimizer.zero_grad()
 
         # early stopping
-        model.eval() # set the model to evaluation mode (i.e. disable gradients)
+        model.eval() # set the model to evaluation mode only relevant if your model includes dropout or batch normalization
         val_y_hat = model.forward(val_X)
         val_loss = loss(val_y, val_y_hat)
         val_losses.append(val_loss)
