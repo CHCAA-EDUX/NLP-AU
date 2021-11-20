@@ -24,7 +24,7 @@ In a vague sense you can see probing as scanning studies on neural language mode
 5) Discuss what improvements could be made? Could you average over mulitiple prompts or use multiple models? What about fine-tuning the model on prompts is that possible? ...
 
 # Prompting
-I will take inspiration from a few papers, especially the GPT-3 paper ["Language models are few-shot learners"](https://arxiv.org/pdf/2005.14165.pdf) and series of response papers, ["It is not just size that Matter: small language models are also few-shot learners"](https://arxiv.org/pdf/2009.07118.pdf), and ["Making Pre-trained Language Models Better Few-shot Learners"](https://arxiv.org/pdf/2012.15723.pdf).
+I will take inspiration from a few papers, especially the GPT-3 paper ["Language models are few-shot learners"](https://arxiv.org/pdf/2005.14165.pdf) and series of response papers, ["It is not just size that Matter: small language models are also few-shot learners"](https://arxiv.org/pdf/2009.07118.pdf), and ["Making Pre-trained Language Models Better Few-shot Learners"](https://arxiv.org/pdf/2012.15723.pdf). You might also be inspired by [this blog](https://thegradient.pub/prompting/) post on the gradient.
 Prompting take slightly different forms depending on the language model, but in general the model looks somewhat like this:
 
 ## Prompting generative models
