@@ -9,4 +9,3 @@
   - The task
   - the tokenizer and the model
 - Self-paced walkthrough of the notebook
-- 
