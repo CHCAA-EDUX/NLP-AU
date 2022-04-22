@@ -1,4 +1,4 @@
-# Syllabus Cultural Data Science - Language #
+# Syllabus: Natural Language Processing #
 
 ## Overview ##
 
