@@ -45,24 +45,24 @@ A maximum of three students can take part in a group assignment.
 
 Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 1hr coding task explanation, and 2hrs code-along session.
 
-| Week  | Session | Lecture                     | Classroom                                                               | Reading                                      |
-| :---: | :-----: | --------------------------- | ----------------------------------------------------------------------- | -------------------------------------------- |
-|  36    |    1    | Introductions               | [Work stack - Slack, UCloud, Github](classes/class1.md)                   | 
-|  37    |    2    | Simple text processing      | Basic NLP methods                    | _Hunston 2002, Chapters 1,2        |
-|  38    |    3    | Classification 1            | Logistic regression and vectorization| _Jurafsky & Martin 2020, Chapter5_ |
-|  39    |    4    | Classification 2            | Neural networks with ```pytorch```   | _Nielsen 2019_       |
-|  40   |          |       *NO TEACHING*         |                       |                                    |
-|  41   |    5    | Word embeddings              | Exploring word embeddings | _Mikolov et al 2013; Pennington et al 2014_  |
-|  42   |         |       *NO TEACHING*          |                       |                                    |
-|  43   |    7    | Language Modelling 1        | Recurrent Neural Networks, Long short-term memory networks| _Urban & Gates 2020_   |
-|  44   |    8    | Language Modelling 2        | [Attention]               | _Vaswani et al 2017; Lindsay et al 2020_     |
-|  45   |    9    | BERT                        | Project Preperation       | _Devlin et al 2019_                          |
-|  46   |   10    | More BERT                   | Exploring BERT            | _Ettinger 2020; Rogers et al 2020_           |
-|  47   |   11    | Project presentations       | Project presentations     | _Brown et al 2020; Raffle et al 2019  |
-|  48   |   12    | Decoder-only & Text-to-text transformers | Prompting    |                          |
-|  49   |   13    | Data bias and ethics        | | Mitchell et al. (2019); _van Miltenburg et al 2021_            |
+| Week  | Session | Lecture | Classroom  |Reading |
+| :---: | :-----: | ----------| -------| ---|
+|  36   |    1    | Introductions               | [Work stack - Slack, UCloud, Github](classes/class1.md)                   | 
+|  37   |    2    | Simple text processing      | Basic NLP methods                    | _Hunston 2002, Chapters 1,2_       |
+|  38   |    3    | Classification 1            | Logistic regression and vectorization| _Jurafsky & Martin 2020, Chapter5_ |
+|  39   |    4    | Classification 2            | Neural networks with ```pytorch```   | _Nielsen 2019_                     |
+|  40   |         |       *NO TEACHING*         |                            |                                              |
+|  41   |    5    | Word embeddings             | Exploring word embeddings  | _Mikolov et al 2013_                         |
+|  42   |         |       *NO TEACHING*         |                            | _Urban and Gates (2019)_                     |
+|  43   |    7    | Language Modelling 1        | Recurrent neural networks  |   _(No readings)_                            |
+|  44   |    8    | Language Modelling 2        | (Self-) Attention          | _Vaswani et al 2017; Lindsay et al 2020_     |
+|  45   |    9    | BERT                        | Project work               | _Rogers et al 2020_                          |
+|  46   |   10    | More BERT                   | Exploring BERT             | _Ettinger 2020_                              |
+|  47   |   11    | Project presentations       | Project presentations      | _Brown et al 2020_; Raffle et al 2019        |
+|  48   |   12    | GPT-3 & T5                  | Prompt engineering         | _CRFM 2019_                                  |
+|  49   |   13    | Social impact               | Project work  | Mitchell et al. (2019); _van Miltenburg et al 2021_       |
 
-Typically lectures take place 14:00 - 16:00 at 1483-251 and classes 13:00 - 15:00 1481-237.
+Typically lectures take place Wednesday 08:00 - 10:00 at 1467-515 and classes 12:00 - 14:00 1467-215.
 
 
 ## Reading ##
@@ -82,7 +82,6 @@ Other suggested readings might be given in lectures related to more specific top
 * Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). "Efficient Estimation of Word Representations in Vector Space". [arXiv:1301.3781](https://arxiv.org/abs/1301.3781) [cs.CL]
 * Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I.D., & Gebru, T. (2019). "Model Cards for Model Reporting". In *Proceedings of the Conference on Fairness, Accountability, and Transparency* (FAT* '19). _Association for Computing Machinery_, New York, NY, USA, 220–229.
 * Nielsen, M. (2019). "Neural Networks and Deep Learning", available online [here](http://neuralnetworksanddeeplearning.com/). Accessible as single PDF [here](https://static.latexstudio.net/article/2018/0912/neuralnetworksanddeeplearning.pdf)
-* Pennington, J., Socher, R., & Manning, C.D. (2014). "GloVe: Global Vectors for Word Representation", Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), 1532-1543.
 * Raffel, C., et al. (2020). "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", [arXiv:1910.10683](https://arxiv.org/abs/1910.10683) [cs.LG]
 * Rogers, A., Kovaleva, O., & Rumshisky, A. (2020). "A Primer in BERTology: what we know about about how BERT works", _Transactions of the Association for Computational Linguistics_, 8, 842-866.
 * Urban, C.J & Gates, K.M. (2020). "Deep Learning: A Primer for Psychologists", _Psychological Methods_, 26(6), 743–773.
