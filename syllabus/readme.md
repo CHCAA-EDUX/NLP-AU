@@ -1,5 +1,7 @@
 # Syllabus: Natural Language Processing #
 
+**NB: The information presented here has been taken from the [AU Course Catalogue](https://kursuskatalog.au.dk/en/course/107427/Natural-language-processing). It should be viewed as indicative, rather than definitive. In the case of errors, the official AU version is binding.**
+
 ## Overview ##
 
 The purpose of the course is to introduce students to advanced statistical methods used in the analysis of text and speech data. The course also introduces students to computational models used in speech and text recognition and prediction, and to models used to generate text and speech outputs in artificial intelligence systems, such as digital assistants and chat bots.
@@ -31,10 +33,8 @@ In the evaluation of the student’s performance, emphasis is placed on the exte
 
 ## Course Assessment ##
 
-The exam is an individual oral exam based on a written synopsis. The duration is 30 minutes including the student’s presentation of the synopsis project, followed by dialogue with the examinators and assessment.
-
+The exam is an individual oral exam based on a written synopsis. The duration is 30 minutes including the student’s presentation of the synopsis project, followed by dialogue with the examinators and assessment. 
 The synopsis can be done as an individual or group assignment. If it is done as a group assignment, the final product must (i) form a coherent text and (ii) be organized so that it is possible to make individual assessments of the students contributing. In other words, the contribution of each individual student to the whole assignment must be clearly delineated (excluding the introduction, conclusion and bibliography).
-
 A maximum of three students can take part in a group assignment.
 
 * Length of individual synopsis: 4-7 standard pages (not including code and figures)
@@ -47,19 +47,20 @@ Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 
 
 | Week  | Session | Lecture                     | Classroom                                                               | Reading                                      |
 | :---: | :-----: | --------------------------- | ----------------------------------------------------------------------- | -------------------------------------------- |
-|  36   |    1    | Introductions               | [Work stack - Slack, UCloud, Github](classes/class1.md)                 | --                                           |
-|       |    2    | Simple text processing      | [Tokenization, word counts, collocation](classes/class2/class2.md)      | _Hunston 2002, Chapters 1,2 4_               |
-|       |    3    | From text processing to NLP | [Lemmatization, part-of-speech, dependencies](classes/class3/class3.md) | _spaCy documentation, Enevoldsen et al 2021_ |
-|       |    4    | Classification 1            | [Logistic regression and vectorization](classes/class4/class4.md)       | _Jurafsky & Martin 2020, Chapter 5_          |
-|       |    5    | Classification 2            | [Neural networks with pytorch](classes/class5/class5.md)                | _Nielsen 2019, Chapter 1 (and throughout!)_  |
-|       |    6    | Word embeddings             | [Exploring word embeddings](classes/class6/class6.ipynb)                | _Mikolov et al 2013; Pennington et al 2014_  |
-| BREAK |         |                             |                                                                         |                                              |
-|  43   |    7    | Language Modelling 1        | [Recurrent Neural Networks, Long short-term memory networks](classes/class7/class7.md)              | _Urban & Gates 2020_                         |
-|       |    8    | Language Modelling 2        | [Attention](classes/class8/class8.md)                                                               | _Vaswani et al 2017; Lindsay et al 2020_     |
-|       |    9    | BERT                        | [Project Preperation](classes/class9/class9.md)                                            | _Devlin et al 2019_                          |
-|       |   10    | Project presentations       | [Classification with BERT](classes/class10/class10.md)                                           | _Ettinger 2020; Rogers et al 2020_           |
-|       |   11    | More BERT                   | [Prompting a language model](classes/class11/class11.md)                                                           | _Coenen et al 2019_                          |
-|       |   12    | Data bias and ethics        | Augmentation for detecting bias                                            | _van Miltenburg et al 2021_                  |
+|  36    |    1    | Introductions               | [Work stack - Slack, UCloud, Github](classes/class1.md)                   | 
+|  37    |    2    | Simple text processing      | Basic NLP methods                    | _Hunston 2002, Chapters 1,2        |
+|  38    |    3    | Classification 1            | Logistic regression and vectorization| _Jurafsky & Martin 2020, Chapter5_ |
+|  39    |    4    | Classification 2            | Neural networks with ```pytorch```   | _Nielsen 2019_       |
+|  40   |          |       *NO TEACHING*         |                       |                                    |
+|  41   |    5    | Word embeddings              | Exploring word embeddings | _Mikolov et al 2013; Pennington et al 2014_  |
+|  42   |         |       *NO TEACHING*          |                       |                                    |
+|  43   |    7    | Language Modelling 1        | Recurrent Neural Networks, Long short-term memory networks| _Urban & Gates 2020_   |
+|  44   |    8    | Language Modelling 2        | [Attention]               | _Vaswani et al 2017; Lindsay et al 2020_     |
+|  45   |    9    | BERT                        | Project Preperation       | _Devlin et al 2019_                          |
+|  46   |   10    | More BERT                   | Exploring BERT            | _Ettinger 2020; Rogers et al 2020_           |
+|  47   |   11    | Project presentations       | Project presentations     |                                              |
+|  48   |   12    | Decoder-only & Text-to-text transformers | Prompting    | _Coenen et al 2019_                          |
+|  49   |   13    | Data bias and ethics        | Augmentation for detecting bias | Mitchell et al. (2019); _van Miltenburg et al 2021_            |
 
 Typically lectures take place 14:00 - 16:00 at 1483-251 and classes 13:00 - 15:00 1481-237.
 
@@ -71,20 +72,20 @@ The assigned readings are a mixture of different kinds of papers. Some of them a
 
 Other suggested readings might be given in lectures related to more specific topics - these will not be compulsory, only for those who wish to explore a specific topic in more detail. However, the following assigned readings will be referred to during lectures, so make sure to read them!
 
+* Brown, T.B., et al. (2020). "Language Models are Few-shot Learners", [arXiv:2005.14165](https://arxiv.org/abs/2005.14165) [cs.CL]
 * Coenen, A., Reif, E., Yuan, A., Kim, B., Pearce, A., Viégas, F., Wattenberg, M. (2020). "Visualizing and Measuring the Geometry of BERT", 33rd Conference on Neural Information Processing Systems.
 * Devlin, J., Chang, M., Lee, K., & Toutanova, K. (2019). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", _Proceedings of NAACL-HLT 2019_, 4171–4186.
-* Enevoldsen, K., Hansen, L., & Nielbo, K.L (2021). "DaCy: A Unified Framework for Danish NLP", arXiv:2107.05295 [cs.CL]
 * Ettinger, A. (2020). "What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models", _Transactions of the Association for Computational Linguistics_, 8, 34–48.
-* Honnibal, M., Montani, I., Van Landeghem, S., & Boyd, A. (2020). "spaCy: Industrial-strength natural language processing in python". Zenodo. <https://doi.org/10.5281/zenodo.1212303>
 * Hunston, S. (2002). _Corpora in Applied Linguistics_. Cambridge: Cambridge University Press.
 * Jurafsky, D. & Martin, J.H. (2021). _Speech and Language Processing_, 3rd edition online pre-print. [Access](https://web.stanford.edu/~jurafsky/slp3/)
 * Lindsay, G.W. (2020). "Attention in Psychology, Neuroscience, and Machine Learning", _Frontiers in Computational Neuroscience_, 14(29), 1-21.
 * Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). "Efficient Estimation of Word Representations in Vector Space". [arXiv:1301.3781](https://arxiv.org/abs/1301.3781) [cs.CL]
+* Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I.D., & Gebru, T. (2019). "Model Cards for Model Reporting". In *Proceedings of the Conference on Fairness, Accountability, and Transparency* (FAT* '19). _Association for Computing Machinery_, New York, NY, USA, 220–229.
 * Nielsen, M. (2019). "Neural Networks and Deep Learning", available online [here](http://neuralnetworksanddeeplearning.com/). Accessible as single PDF [here](https://static.latexstudio.net/article/2018/0912/neuralnetworksanddeeplearning.pdf)
 * Pennington, J., Socher, R., & Manning, C.D. (2014). "GloVe: Global Vectors for Word Representation", Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), 1532-1543.
+* Raffel, C., et al. (2020). "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", [arXiv:1910.10683](https://arxiv.org/abs/1910.10683) [cs.LG]
 * Rogers, A., Kovaleva, O., & Rumshisky, A. (2020). "A Primer in BERTology: what we know about about how BERT works", _Transactions of the Association for Computational Linguistics_, 8, 842-866.
-* Urban, C.J & Gates, K.M. (2020). "Deep Learning: A Primer for Psychologists", _Psychological Methods_.
-  * (NB: Article to be published 2022, open source pre-print available through library.)
+* Urban, C.J & Gates, K.M. (2020). "Deep Learning: A Primer for Psychologists", _Psychological Methods_, 26(6), 743–773.
 * van Miltenburg, E., van der Lee, C., Krahmer, E. (2021). "Preregistering NLP research", _Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies_, 613-623.
 * Vaswani, A, Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., Kaiser, Ł, & Polosukhin, I. (2017). "Attention is all you need", NIPS'17: Proceedings of the 31st International Conference on Neural Information Processing Systems.
 
