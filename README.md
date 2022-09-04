@@ -34,7 +34,7 @@ Make sure to read the studieording first if you have any questions relating to t
 
 ## Contact details
 
-Your lecturer for this course will be [Ross](au.dk/en/rdkm@cas); the classrooms will be led by [Kenneth](https://pure.au.dk/portal/en/persons/kenneth-christian-enevoldsen(c52b8fd4-bd44-4c8e-997b-648715fd0d0d).html). If you have any problems with the course or questions that you want to ask, get in touch with Ross first
+Your lecturer for this course will be [Ross](au.dk/en/rdkm@cas). If you have any problems with the course or questions that you want to ask, just get in touch.
 
 All communication to you will be sent _both_ on Slack _and_ via Blackboard. If you need to get in touch with Ross, Slack should be the first place to try - you'll likely get a quicker response!
 
