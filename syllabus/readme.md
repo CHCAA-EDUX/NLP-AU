@@ -60,7 +60,7 @@ Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 
 |  46   |   10    | More BERT                   | Exploring BERT             | _Ettinger 2020_                              |
 |  47   |   11    | Project presentations       | Project presentations      | _Brown et al 2020_; Raffle et al 2019        |
 |  48   |   12    | GPT-3 & T5                  | Prompt engineering         | _CRFM 2019_                                  |
-|  49   |   13    | Social impact               | Project work  | Mitchell et al. (2019); _van Miltenburg et al 2021_       |
+|  49   |   13    | Social impact               | Project work  | _Mitchell et al. (2019)_; _van Miltenburg et al 2021_       |
 
 Typically lectures take place Wednesday 08:00 - 10:00 at 1467-515 and classes 12:00 - 14:00 1467-215.
 
