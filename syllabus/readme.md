@@ -74,7 +74,6 @@ Other suggested readings might be given in lectures related to more specific top
 
 * Brown, T.B., et al. (2020). "Language Models are Few-shot Learners", [arXiv:2005.14165](https://arxiv.org/abs/2005.14165) [cs.CL]
 * Center for Research on Foundation Models (CRFM) (2019). "On the Opportunities and Risks of Foundation Models", [arXiv:2108.07258](https://arxiv.org/abs/2108.07258) [cs.LG]
-* Devlin, J., Chang, M., Lee, K., & Toutanova, K. (2019). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", _Proceedings of NAACL-HLT 2019_, 4171–4186.
 * Ettinger, A. (2020). "What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models", _Transactions of the Association for Computational Linguistics_, 8, 34–48.
 * Hunston, S. (2002). _Corpora in Applied Linguistics_. Cambridge: Cambridge University Press.
 * Jurafsky, D. & Martin, J.H. (2021). _Speech and Language Processing_, 3rd edition online pre-print. [Access](https://web.stanford.edu/~jurafsky/slp3/)
