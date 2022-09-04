@@ -58,9 +58,9 @@ Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 
 |  44   |    8    | Language Modelling 2        | [Attention]               | _Vaswani et al 2017; Lindsay et al 2020_     |
 |  45   |    9    | BERT                        | Project Preperation       | _Devlin et al 2019_                          |
 |  46   |   10    | More BERT                   | Exploring BERT            | _Ettinger 2020; Rogers et al 2020_           |
-|  47   |   11    | Project presentations       | Project presentations     |                                              |
-|  48   |   12    | Decoder-only & Text-to-text transformers | Prompting    | _Coenen et al 2019_                          |
-|  49   |   13    | Data bias and ethics        | Augmentation for detecting bias | Mitchell et al. (2019); _van Miltenburg et al 2021_            |
+|  47   |   11    | Project presentations       | Project presentations     | _Brown et al 2020; Raffle et al 2019  |
+|  48   |   12    | Decoder-only & Text-to-text transformers | Prompting    |                          |
+|  49   |   13    | Data bias and ethics        | | Mitchell et al. (2019); _van Miltenburg et al 2021_            |
 
 Typically lectures take place 14:00 - 16:00 at 1483-251 and classes 13:00 - 15:00 1481-237.
 
@@ -73,7 +73,7 @@ The assigned readings are a mixture of different kinds of papers. Some of them a
 Other suggested readings might be given in lectures related to more specific topics - these will not be compulsory, only for those who wish to explore a specific topic in more detail. However, the following assigned readings will be referred to during lectures, so make sure to read them!
 
 * Brown, T.B., et al. (2020). "Language Models are Few-shot Learners", [arXiv:2005.14165](https://arxiv.org/abs/2005.14165) [cs.CL]
-* Coenen, A., Reif, E., Yuan, A., Kim, B., Pearce, A., Viégas, F., Wattenberg, M. (2020). "Visualizing and Measuring the Geometry of BERT", 33rd Conference on Neural Information Processing Systems.
+* Center for Research on Foundation Models (CRFM) (2019). "On the Opportunities and Risks of Foundation Models", [arXiv:2108.07258] (https://arxiv.org/abs/2108.07258) [cs.LG]
 * Devlin, J., Chang, M., Lee, K., & Toutanova, K. (2019). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", _Proceedings of NAACL-HLT 2019_, 4171–4186.
 * Ettinger, A. (2020). "What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models", _Transactions of the Association for Computational Linguistics_, 8, 34–48.
 * Hunston, S. (2002). _Corpora in Applied Linguistics_. Cambridge: Cambridge University Press.
