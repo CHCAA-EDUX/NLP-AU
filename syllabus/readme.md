@@ -33,13 +33,19 @@ In the evaluation of the student’s performance, emphasis is placed on the exte
 
 ## Course Assessment ##
 
-The exam is an individual oral exam based on a written synopsis. The duration is 30 minutes including the student’s presentation of the synopsis project, followed by dialogue with the examinators and assessment. 
-The synopsis can be done as an individual or group assignment. If it is done as a group assignment, the final product must (i) form a coherent text and (ii) be organized so that it is possible to make individual assessments of the students contributing. In other words, the contribution of each individual student to the whole assignment must be clearly delineated (excluding the introduction, conclusion and bibliography).
-A maximum of three students can take part in a group assignment.
+The examination consists of a take-home assignment on a topic of the student’s choice and a related practical product.
 
-* Length of individual synopsis: 4-7 standard pages (not including code and figures)
-* Length of synopsis for 2 students: 8-14 standard (not including code and figures)
-* Length of synopsis for 3 students: 12-21 standard (not including code and figures)
+The assignment can be written individually or in groups of up to 4 students. Group assignments must be written in such a way that the contribution of each student, except for the introduction, thesis statement and conclusion, can form the basis of individual assessment. The assignment should clearly state which student is responsible for which section.
+
+Length for one student: 10-12 standard pages
+Length for two students: 17-22 standard pages
+Length for three students: 24-32 standard pages
+Length for four students: 31-42 standard pages
+
+The scope and nature of the product must be relevant in relation to the content of the course and is subject to the approval of the teacher. It must be possible to submit the product digitally in a documented form which can be accessed by the examiner and co-examiner.
+
+The product must be accompanied by a take-home assignment on a topic of the student’s choice, in which the student explains the relevance and methodological and theoretical basis of the product.
+The assignment and the product must be submitted for assessment in the Digital Exam system before the deadline set in the examination plan. Assessment is based on an overall assessment of the take-home assignment and the practical product.
 
 ## Schedule ##
 
