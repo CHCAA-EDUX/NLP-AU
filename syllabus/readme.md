@@ -60,7 +60,7 @@ Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 
 |  46   |   10    | More BERT                   | Exploring BERT             | _Ettinger 2020_                              |
 |  47   |   11    | Project presentations       | Project presentations      | _Brown et al 2020_; Raffle et al 2019        |
 |  48   |   12    | GPT-3 & T5                  | Prompt engineering         | _CRFM 2019_                                  |
-|  49   |   13    | Social impact               | Project work  | _Mitchell et al. (2019)_; _van Miltenburg et al 2021_       |
+|  49   |   13    | Social impact               | Project work  | _Mitchell et al. (2019)_; _Bender et al. (2021)_       |
 
 Typically lectures take place Wednesday 08:00 - 10:00 at 1467-515 and classes 12:00 - 14:00 1467-215.
 
@@ -72,6 +72,7 @@ The assigned readings are a mixture of different kinds of papers. Some of them a
 
 Other suggested readings might be given in lectures related to more specific topics - these will not be compulsory, only for those who wish to explore a specific topic in more detail. However, the following assigned readings will be referred to during lectures, so make sure to read them!
 
+* Bender, E.M., Gebru, T., McMillan-Major, A., Schmitchell, S. (2021). "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜". In Proceedings of FAccT 2021, pp.610-623.
 * Brown, T.B., et al. (2020). "Language Models are Few-shot Learners", [arXiv:2005.14165](https://arxiv.org/abs/2005.14165) [cs.CL]
 * Center for Research on Foundation Models (CRFM) (2019). "On the Opportunities and Risks of Foundation Models", [arXiv:2108.07258](https://arxiv.org/abs/2108.07258) [cs.LG]
 * Ettinger, A. (2020). "What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models", _Transactions of the Association for Computational Linguistics_, 8, 34–48.
@@ -84,7 +85,6 @@ Other suggested readings might be given in lectures related to more specific top
 * Raffel, C., et al. (2020). "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", [arXiv:1910.10683](https://arxiv.org/abs/1910.10683) [cs.LG]
 * Rogers, A., Kovaleva, O., & Rumshisky, A. (2020). "A Primer in BERTology: what we know about about how BERT works", _Transactions of the Association for Computational Linguistics_, 8, 842-866.
 * Urban, C.J & Gates, K.M. (2020). "Deep Learning: A Primer for Psychologists", _Psychological Methods_, 26(6), 743–773.
-* van Miltenburg, E., van der Lee, C., Krahmer, E. (2021). "Preregistering NLP research", _Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies_, 613-623.
 * Vaswani, A, Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., Kaiser, Ł, & Polosukhin, I. (2017). "Attention is all you need", NIPS'17: Proceedings of the 31st International Conference on Neural Information Processing Systems.
 
 ## Additional Resources ###
