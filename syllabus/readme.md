@@ -6,30 +6,26 @@
 
 The purpose of the course is to introduce students to advanced statistical methods used in the analysis of text and speech data. The course also introduces students to computational models used in speech and text recognition and prediction, and to models used to generate text and speech outputs in artificial intelligence systems, such as digital assistants and chat bots.
 
-The course addresses how we can approach theoretical and applied topics in human cognition using computational linguistics and natural language processing tools. The course also addresses key ethical topics that arise from the analysis of freely available natural language data, and in the development of natural language processing software and technologies.
+The course addresses how we can approach theoretical and applied topics in the cognitive sciences using computational linguistics and natural language processing tools. Examples may include probabilistic topic modelling, sentiment analysis, and word2vec semantic analysis. The course also addresses key ethical topics that arise from the analysis of freely available natural language data, and in the development of natural language processing software and technologies. 
 
-This course builds on students’ background knowledge in statistics and statistical programming, and introduces students to working with large data sets. The course builds towards the data science course. The course introduces students to ethical and philosophical topics, which will be extended on in the data science course. The course prepares students for careers involving analysis of text and other forms of natural language data, and for careers involving development of natural language software.
+This course builds on students’ background knowledge in statistics and statistical programming, and introduces students to working with large data sets. The course introduces students to ethical and philosophical topics.
 
 ### Academic Objectives ###
-
 In the evaluation of the student’s performance, emphasis is placed on the extent to which the student is able to:
 
 1. Knowledge:
-
 * contrast different natural language processing methods in terms of their strengths and weaknesses in different use contexts
-* explain how formal analysis of natural language can provide insights into human cognition and behaviour
-* discuss ethical and philosophical issues connected to natural language processing software and technology.
+* explain how formal and computational analysis of natural language can provide insights into human cognition and behaviour
+* discuss ethical and philosophical issues connected to natural language processing technology applications.
 
 2. Skills:
-
 * identify relevant data sources for specific research and applied questions
 * correctly choose and apply tools for analysing natural language data.
 
 3. Competences:
-
 * critically reflect on and discuss theoretical and empirical implications of using natural language processing techniques
 * justify the choice between relevant methods and analyses used for specific research questions within the field of natural language processing
-* clear oral presentation of complex analyses.
+* critically evaluate the appropriateness of a given method for a given natural language data set.
 
 ## Course Assessment ##
 
