@@ -14,18 +14,18 @@ This course builds on students’ background knowledge in statistics and statist
 In the evaluation of the student’s performance, emphasis is placed on the extent to which the student is able to:
 
 1. Knowledge:
-* contrast different natural language processing methods in terms of their strengths and weaknesses in different use contexts
-* explain how formal and computational analysis of natural language can provide insights into human cognition and behaviour
-* discuss ethical and philosophical issues connected to natural language processing technology applications.
+    - contrast different natural language processing methods in terms of their strengths and weaknesses in different use contexts
+    - explain how formal and computational analysis of natural language can provide insights into human cognition and behaviour
+    - discuss ethical and philosophical issues connected to natural language processing technology applications.
 
 2. Skills:
-* identify relevant data sources for specific research and applied questions
-* correctly choose and apply tools for analysing natural language data.
+    - identify relevant data sources for specific research and applied questions
+    - correctly choose and apply tools for analysing natural language data.
 
 3. Competences:
-* critically reflect on and discuss theoretical and empirical implications of using natural language processing techniques
-* justify the choice between relevant methods and analyses used for specific research questions within the field of natural language processing
-* critically evaluate the appropriateness of a given method for a given natural language data set.
+    - critically reflect on and discuss theoretical and empirical implications of using natural language processing techniques
+    - justify the choice between relevant methods and analyses used for specific research questions within the field of natural language processing
+    - critically evaluate the appropriateness of a given method for a given natural language data set.
 
 ## Course Assessment ##
 
