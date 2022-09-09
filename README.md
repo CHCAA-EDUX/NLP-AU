@@ -6,7 +6,7 @@ This repository is in active development, with new material being pushed on a we
 
 ## Technicalities
 
-For the sake of convenience, I advise that everyone uses [UCloud](https://cloud.sdu.dk) for development purposes. You can then clone this repo and pull any changes that are made on a weekly basis.
+For the sake of convenience, I advise that everyone uses [UCloud](https://cloud.sdu.dk) for development purposes. You can then fork this repo and pull any changes that are made on a weekly basis.
 
 For those of you who do not wish to use UCloud, you are of course welcome to use your own machine. However, due to time constraints, we will not be providing any technical support if you choose to go this way. 
 
