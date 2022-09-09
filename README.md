@@ -29,7 +29,7 @@ Lectures take place on Wednesdays from 08-10; classroom instruction is on Friday
 
 ## Course overview and readings
 
-A detailed breakdown of the course structure and the associated readings can be found in the [syllabus](syllabus.md). Also, be sure to familiarize yourself with the [_studieordning_](https://eddiprod.au.dk/EDDI/webservices/DokOrdningService.cfc?method=visGodkendtOrdning&dokOrdningId=17274&sprog=en) for the course, especially in relation to examination and academic regulations. 
+A detailed breakdown of the course structure and the associated readings can be found in the [syllabus](syllabus/readme.md). Also, be sure to familiarize yourself with the [_studieordning_](https://eddiprod.au.dk/EDDI/webservices/DokOrdningService.cfc?method=visGodkendtOrdning&dokOrdningId=17274&sprog=en) for the course, especially in relation to examination and academic regulations. 
 
 Make sure to read the studieording first if you have any questions relating to the course organisation, exam format, and so forth.
 
