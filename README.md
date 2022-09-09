@@ -25,7 +25,7 @@ This repository has been initialised with the following directory structure:
 
 ## Class times
 
-Lectures take place on Wednesdays from 14-16; classroom instruction is on Thursday from 13-15. I'm not going to post the room number to Github - you can find this via the [AU Timetable](https://timetable.au.dk)
+Lectures take place on Wednesdays from 08-10; classroom instruction is on Friday from 12-14. For security reasons, I'm not going to post the room numbers to Github - you can find this via your [AU Timetable](https://timetable.au.dk)
 
 ## Course overview and readings
 
