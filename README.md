@@ -18,8 +18,9 @@ This repository has been initialised with the following directory structure:
 
 | Column | Description|
 |--------|:-----------|
+```classes``` | Instructions for each of the classrooms, including assignments.
 ```src``` | A folder for Python scripts developed in class.
-```syllabus```| Containing a markdown file with the course syllabus and readings
+```syllabus```| Containing a markdown file with the course syllabus and readings.
 
 
 ## Class times
