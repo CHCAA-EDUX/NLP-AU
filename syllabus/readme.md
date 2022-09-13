@@ -56,13 +56,13 @@ Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 
 |  40   |         |       *NO TEACHING*         |                            |                                              |
 |  41   |    5    | Word embeddings             | Exploring word embeddings  | _Mikolov et al 2013_                         |
 |  42   |         |       *NO TEACHING*         |                            | _Urban and Gates (2019)_                     |
-|  43   |    7    | Language Modelling 1        | Recurrent neural networks  |   _(No readings)_                            |
-|  44   |    8    | Language Modelling 2        | (Self-) Attention          | _Vaswani et al 2017; Lindsay et al 2020_     |
-|  45   |    9    | BERT                        | Project development        | _Rogers et al 2020_                          |
-|  46   |   10    | More BERT                   | Exploring BERT             | _Ettinger 2020_                              |
-|  47   |   11    | Project presentations       | Project presentations      | _Brown et al 2020_; Raffle et al 2019        |
-|  48   |   12    | GPT-3 & T5                  | Prompt engineering         | _CRFM 2019_                                  |
-|  49   |   13    | Social impact               | Project development  | _Mitchell et al. (2019)_; _Bender et al. (2021)_       |
+|  43   |    6    | Language Modelling 1        | Recurrent neural networks  |   _(No readings)_                            |
+|  44   |    7    | Language Modelling 2        | (Self-) Attention          | _Vaswani et al 2017; Lindsay et al 2020_     |
+|  45   |    8    | BERT                        | Project development        | _Rogers et al 2020_                         |
+|  46   |   9    | More BERT                   | Exploring BERT             | _Ettinger 2020_                              |
+|  47   |   10    | Project presentations       | Project presentations      | _Brown et al 2020_; Raffle et al 2019        |
+|  48   |   11    | GPT-3 & T5                  | Prompt engineering         | _CRFM 2019_                                  |
+|  49   |   12    | Social impact               | Project development  | _Mitchell et al. (2019)_; _Bender et al. (2021)_       |
 
 Typically lectures take place Wednesday 08:00 - 10:00 at 1467-515 and classes 12:00 - 14:00 1467-215.
 
