@@ -52,7 +52,7 @@ Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 
 |  36   |    1    | Introductions               | [Work stack - Slack, UCloud, Github](classes/class1.md)                   | 
 |  37   |    2    | Simple text processing      | Basic NLP methods                    | _Hunston 2002, Chapters 1,2_       |
 |  38   |    3    | Classification 1            | Logistic regression and vectorization| _Jurafsky & Martin 2020, Chapter5_ |
-|  39   |    4    | Classification 2            | Neural networks with ```pytorch```   | _Nielsen 2019_                     |
+|  39   |    4    | Classification 2            | Neural networks with ```pytorch```   | _Nielsen 2019, Chapter 1_                     |
 |  40   |         |       *NO TEACHING*         |                            |                                              |
 |  41   |    5    | Word embeddings             | Exploring word embeddings  | _Mikolov et al 2013_                         |
 |  42   |         |       *NO TEACHING*         |                            | _Urban and Gates (2019)_                     |
