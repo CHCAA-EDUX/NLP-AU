@@ -19,4 +19,4 @@ For the rest of this semester, we'll be more interested in the machinary and arc
 ## Starting new group assignment
 
 - Group work on Assignment 2, available via Github Classroom
-
+  - https://classroom.github.com/a/M_pu8USz
