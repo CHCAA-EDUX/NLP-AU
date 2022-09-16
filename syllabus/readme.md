@@ -52,17 +52,17 @@ Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 
 |  36   |    1    | Introductions               | [Work stack - Slack, UCloud, Github](classes/class1.md)                   | 
 |  37   |    2    | Simple text processing      | Basic NLP methods                    | _Hunston 2002, Chapters 1,2_       |
 |  38   |    3    | Classification 1            | Logistic regression and vectorization| _Jurafsky & Martin 2020, Chapter5_ |
-|  39   |    4    | Classification 2            | Neural networks with ```pytorch```   | _Nielsen 2019_                     |
+|  39   |    4    | Classification 2            | Neural networks with ```pytorch```   | _Nielsen 2019, Chapter 1_                     |
 |  40   |         |       *NO TEACHING*         |                            |                                              |
 |  41   |    5    | Word embeddings             | Exploring word embeddings  | _Mikolov et al 2013_                         |
 |  42   |         |       *NO TEACHING*         |                            | _Urban and Gates (2019)_                     |
-|  43   |    7    | Language Modelling 1        | Recurrent neural networks  |   _(No readings)_                            |
-|  44   |    8    | Language Modelling 2        | (Self-) Attention          | _Vaswani et al 2017; Lindsay et al 2020_     |
-|  45   |    9    | BERT                        | Project development        | _Rogers et al 2020_                          |
-|  46   |   10    | More BERT                   | Exploring BERT             | _Ettinger 2020_                              |
-|  47   |   11    | Project presentations       | Project presentations      | _Brown et al 2020_; Raffle et al 2019        |
-|  48   |   12    | GPT-3 & T5                  | Prompt engineering         | _CRFM 2019_                                  |
-|  49   |   13    | Social impact               | Project development  | _Mitchell et al. (2019)_; _Bender et al. (2021)_       |
+|  43   |    6    | Language Modelling 1        | Recurrent neural networks  |   _(No readings)_                            |
+|  44   |    7    | Language Modelling 2        | (Self-) Attention          | _Vaswani et al 2017; Lindsay et al 2020_     |
+|  45   |    8    | BERT                        | Project development        | _Rogers et al 2020_                         |
+|  46   |   9    | More BERT                   | Exploring BERT             | _Ettinger 2020_                              |
+|  47   |   10    | Project presentations       | Project presentations      | _Brown et al 2020_; Raffle et al 2019        |
+|  48   |   11    | GPT-3 & T5                  | Prompt engineering         | _CRFM 2019_                                  |
+|  49   |   12    | Social impact               | Project development  | _Mitchell et al. (2019)_; _Bender et al. (2021)_       |
 
 Typically lectures take place Wednesday 08:00 - 10:00 at 1467-515 and classes 12:00 - 14:00 1467-215.
 
@@ -101,7 +101,7 @@ The following resources are *not* compulsory assigned readings. Instead, these a
 
 ## Slack Channel ##
 
-We will use the "NLP-E21" channel for class-related communication. Please ask (and answer) questions in this Slack channel. There is no such thing as a stupid or trivial question! If a classmates asks a question you know an answer to, try and answer. Slack is not only for instructor-student interaction, it is for all students to share knowledge and resources, and to get answers as fast as possible. 
+We will use the "CogSci-AU" channel for class-related communication. Please ask (and answer) questions in this Slack channel. There is no such thing as a stupid or trivial question! If a classmates asks a question you know an answer to, try and answer. Slack is not only for instructor-student interaction, it is for all students to share knowledge and resources, and to get answers as fast as possible. 
 
 Slack is best-suited for short technical questions and individual threads or channels for extended conversations on a given topic.
 
@@ -130,4 +130,4 @@ Slack is best-suited for short technical questions and individual threads or cha
 
 ## Disability Resources ##
 
-Your experience in this class is important to me. If you have already established accommodations with Special Educational Support (SES), please communicate your approved accommodations to me at your earliest convenience so we can discuss your needs in this course. If you have not yet established services through SES, but have a temporary health condition or permanent disability that requires accommodations (conditions include but not limited to; mental health, attention-related, learning, vision, hearing, physical or health impacts), you are welcome to contact 8716 2720 (Monday & Thursday 9-12, Tuesday 13-15) or email sps@au.dk. SES offers resources and coordinates reasonable accommodations for students with disabilities and/or temporary health conditions. Reasonable accommodations are established through an interactive process between you, your instructor(s) and SES. It is the policy and practice of the Aarhus University to create inclusive and accessible learning environment and ensure that all students have the opportunity to educate themselves on equal terms even if they have a disability
+Your experience in this class is important to me. If you have already established accommodations with Special Educational Support (SES), please communicate your approved accommodations to me at your earliest convenience so we can discuss your needs in this course. If you have not yet established services through SES, but have a temporary health condition or permanent disability that requires accommodations (conditions include but not limited to; mental health, attention-related, learning, vision, hearing, physical or health impacts), you are welcome to contact 8716 2720 (Monday & Thursday 9-12, Tuesday 13-15) or email sps@au.dk. SES offers resources and coordinates reasonable accommodations for students with disabilities and/or temporary health conditions. Reasonable accommodations are established through an interactive process between you, your instructor(s) and SES. It is the policy and practice of the Aarhus University to create inclusive and accessible learning environment and ensure that all students have the opportunity to educate themselves on equal terms even if they have a disability.
