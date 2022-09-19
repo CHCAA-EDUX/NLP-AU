@@ -92,11 +92,12 @@ Other suggested readings might be given in lectures related to more specific top
 ## Additional Resources ###
 The following resources are *not* compulsory assigned readings. Instead, these are a mixture of textbooks and other resources which can be used as reference texts. Specifically, these will be useful for people who want to improve their understanding of linear algebra and neural networks. I strongly recommend all of the textbooks by Gilbert Strang - he's a fantastically clear writer, which is a rare skill among mathematicians. VanderPlas (2016) is a useful reference text for basic data science using Python (pandas, matplotlib, scikit-learn). It's below the level we'll be working at but it's good to have nevertheless.
 
+* Bittinger, M.L., Ellenbogen, D.J., & Surgent, S.A. (2012). _Calculus and its Applications, 10th Edition_. Boston, MA: Addison-Wesley.
 * Goldberg, N. (2017). _Neural Network Methods for Natural Language Processing_. New York: Morgan & Claypool Publishers.
-* Strang, G. (2009). _Introduction to Linear Algebra (4th Edition)_.  Wellesley, MA : Wellesley-Cambridge Press.
-  * (2016). _Linear Algebra and its Applications, (5th Edition)_. Wellesley, MA : Wellesley-Cambridge Press.
-  * (2019). _Linear Algebra and Learning from Data_. Wellesley, MA : Wellesley-Cambridge Press.
-  * (2020). _Linear Algebra for Everyone_. Wellesley, MA : Wellesley-Cambridge Press.
+* Strang, G. (2009). _Introduction to Linear Algebra (4th Edition)_.  Wellesley, MA: Wellesley-Cambridge Press.
+  * (2016). _Linear Algebra and its Applications, (5th Edition)_. Wellesley, MA: Wellesley-Cambridge Press.
+  * (2019). _Linear Algebra and Learning from Data_. Wellesley, MA: Wellesley-Cambridge Press.
+  * (2020). _Linear Algebra for Everyone_. Wellesley, MA: Wellesley-Cambridge Press.
 * VanderPlas, J. (2016). _Python Data Science Handbook_. [Access](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 ## Slack Channel ##
