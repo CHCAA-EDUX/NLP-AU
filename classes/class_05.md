@@ -10,3 +10,4 @@ At the moment, we're not so focused on how we can train our own word embeddings.
 - Brief chat about previous assignment
 - Introducing the tasks
 - Working in groups experimenting
+- Bonus tasks if time allows it
