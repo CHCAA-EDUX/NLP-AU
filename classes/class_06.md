@@ -1,4 +1,4 @@
-# Class 5 - Training an LSTM model for Named Entity Recognition
+# Class 6 - Training an LSTM model for Named Entity Recognition
 
 In this classroom, you'll primarily be working on a series of small tasks all of which are related to the assignment given out this week. With this assignment, we're moving into doing some real NLP. 
 
