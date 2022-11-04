@@ -12,7 +12,7 @@ The assignment itself to use all of the skills and tools we've developed in the 
 ## Outline
 
 - Modular code
-- Virtual machines
-- ArgParse
+- Virtual environments
+- Command line tools using argparse
 - Automated set-up script
 - Continuing with assignment
