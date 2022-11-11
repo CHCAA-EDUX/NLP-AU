@@ -4,3 +4,4 @@ torch
 datasets
 gensim
 seqeval
+wandb

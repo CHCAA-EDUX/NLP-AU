@@ -1,0 +1,44 @@
+{
+    "os": "macOS-12.6-x86_64-i386-64bit",
+    "python": "3.9.6",
+    "heartbeatAt": "2022-11-11T10:11:40.760262",
+    "startedAt": "2022-11-11T10:11:39.865434",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-b16"
+    ],
+    "state": "running",
+    "program": "/Users/au564346/Documents/teaching/2022/NLP/NLP-AU/assignments/assignment04/ner/main.py",
+    "codePath": "assignments/assignment04/ner/main.py",
+    "git": {
+        "remote": "https://github.com/CHCAA-EDUX/NLP-AU.git",
+        "commit": "022cb195747e2433bcabb92854a62f4794004d26"
+    },
+    "email": "rdkm@cc.au.dk",
+    "root": "/Users/au564346/Documents/teaching/2022/NLP/NLP-AU",
+    "host": "d48001",
+    "username": "au564346",
+    "executable": "/Users/au564346/Documents/teaching/2022/NLP/NLP-AU/assignments/assignment04/env/bin/python3",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 14.359245300292969
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

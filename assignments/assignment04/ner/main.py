@@ -15,8 +15,8 @@ wandb.init(project="classrooms",
     config = {
         "learning_rate": 0.01,
         "epochs": 1000,
-        "batch_size": 5,
-        "model_name":"glove-wiki-gigaword-500"
+        "batch_size": 16,
+        "model_name":"glove-wiki-gigaword-100"
     }
 )
 
