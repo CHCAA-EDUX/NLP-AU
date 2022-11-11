@@ -1,0 +1,6 @@
+numpy
+sklearn
+torch
+datasets
+gensim
+seqeval
