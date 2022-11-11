@@ -9,14 +9,16 @@ from seqeval.metrics import classification_report
 import wandb
 
 # w&b setup
-wandb.init(project="classrooms", entity="rdkm")
-wandb.config = {
-  "learning_rate": 0.01,
-  "epochs": 1000,
-  "batch_size": 5,
-  "model_name":"glove-wiki-gigaword-100"
-}
-
+# this should be made a bit smarter by adding args to the dictionary - I got lazy
+wandb.init(project="classrooms", 
+    entity="rdkm",
+    config = {
+        "learning_rate": 0.01,
+        "epochs": 1000,
+        "batch_size": 5,
+        "model_name":"glove-wiki-gigaword-500"
+    }
+)
 
 def train_model(model, optimizer, epochs, training, validation, vocab, patience):
     """
@@ -32,7 +34,6 @@ def train_model(model, optimizer, epochs, training, validation, vocab, patience)
 
             #forward
             y_hat = model(X)
-
             #loss & backward
             loss = model.loss_fn(y_hat, y)
             loss.backward()
