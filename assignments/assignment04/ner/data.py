@@ -26,34 +26,6 @@ def load_data() -> DatasetDict:
     return dataset
 
 
-def load_sst2() -> DatasetDict:
-    """load the sst2 dataset. Do note that the test, train set here does correspond to the original test and train set. 
-    As the official test set is hidden (to ensure that researcher does not accidentally or intentionally train on it) 
-    we have created a new test set by using excluding 1000 random samples from the train set.
-
-    Returns:
-        DatasetDict: A dictionary containing the train, test and dev sets.
-    """
-
-    dataset = datasets.load_dataset("glue", "sst2")
-
-    # don't change the seed or n_test
-    random.seed(10)  # seed to ensure the test set is the same for everyone
-    n_test = 1000  # number of test samples
-    bool_is_test = [0 if i >= n_test else 1 for i in range(dataset["train"].num_rows)]
-    random.shuffle(bool_is_test)
-
-    # create list of indices for the test and train set
-    test_idx = [i for i, is_test in enumerate(bool_is_test) if is_test]
-    train_idx = [i for i, is_test in enumerate(bool_is_test) if not is_test]
-
-    # overwrite existing test and train set
-    dataset["test"] = dataset["train"].select(np.array(test_idx))
-    dataset["train"] = dataset["train"].select(np.array(train_idx))
-
-    return dataset
-
-
 def batch(dataset: Iterable, batch_size: int) -> Iterable:
     """Creates batches from an iterable.
 

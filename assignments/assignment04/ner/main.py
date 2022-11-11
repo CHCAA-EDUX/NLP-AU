@@ -1,12 +1,21 @@
+import argparse
+import random
 import numpy as np
 import torch
-import random
 import gensim.downloader as api
-import sys
 from data import batch, gensim_to_torch_embedding, load_data, prepare_batch
 from LSTM import TokenLSTM
 from seqeval.metrics import classification_report
-import argparse
+import wandb
+
+# w&b setup
+wandb.init(project="classrooms", entity="rdkm")
+wandb.config = {
+  "learning_rate": 0.01,
+  "epochs": 1000,
+  "batch_size": 5,
+  "model_name":"glove-wiki-gigaword-100"
+}
 
 
 def train_model(model, optimizer, epochs, training, validation, vocab, patience):

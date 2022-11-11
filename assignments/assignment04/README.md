@@ -1,6 +1,12 @@
 # Summary
 This repo contains one possible solution to assignment 4, training a (Bi-)LSTM for named entity recognition.
 
+This assignment using the [CONLLPP dataset](https://huggingface.co/datasets/conllpp) from Huggingface and uses Pytorch for model training.
+
+The results are logged using [Weights and Biases](https://wandb.ai/). You can sign up for free for this service and use it to track your own models during training. This is a really useful way of following models during training and sharing the results with other people.
+
+For example, [here are the training loss curves for some models I trained](https://wandb.ai/rdkm/classrooms/reports/loss-22-11-11-10-55-25---VmlldzoyOTUzODMw?accessToken=bgjx2zzqhhoie6ew5qjbqpok82r3hluqf9xn7kzqj7kj5kxghasdauxhilxalgfc).
+
 <!-- 
 This should include a short description of which models you have tried and conclusions from comparing these models. This should be no longer than an abstract. This section can also include questions regarding the assignment.
 -->
