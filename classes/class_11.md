@@ -7,6 +7,8 @@ Then, we're going to go on to look at how we can use HuggingFace transformers fo
 
 EDIT: A couple of days before this class, OpenAI released a new LLM called ChatGPT. This is still in it's free testing phase, meaning we have unique opportunity to test it in class. So let's do that!
 
+[Head over to OpenAI and set up a free account](https://chat.openai.com)
+
 ---
 ## Outline
 
