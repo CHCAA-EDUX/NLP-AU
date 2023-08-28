@@ -1,6 +1,6 @@
 # Syllabus: Natural Language Processing #
 
-**NB: The information presented here has been taken from the [AU Course Catalogue](https://kursuskatalog.au.dk/en/course/114478/Natural-Language-Processing). It should be viewed as indicative, rather than definitive. In the case of errors, the official AU version is binding.**
+**NB: The information presented here has been taken from the [AU Course Catalogue](https://kursuskatalog.au.dk/en/course/119713/Natural-Language-Processing). It should be viewed as indicative, rather than definitive. In the case of errors, the official AU version is binding.**
 
 ## Overview ##
 
