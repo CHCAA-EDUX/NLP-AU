@@ -1,6 +1,6 @@
 # Natural Language Processing - Autumn 2022
 
-This repository contains all of the code and data related to the module _Natural Language Processing_ taken as part of the  [_kandidatuddannelsen_ in Cognitive Science](https://masters.au.dk/cognitivescience) at Aarhus University.
+This repository contains all of the code and data related to the module _Natural Language Processing_ taken as part of the  [MSc in Cognitive Science](https://masters.au.dk/cognitivescience) at Aarhus University.
 
 This repository is in active development, with new material being pushed on a weekly basis. 
 
@@ -25,7 +25,7 @@ This repository has been initialised with the following directory structure:
 
 ## Class times
 
-Lectures take place on Wednesdays from 08-10; classroom instruction is on Friday from 12-14. For security reasons, I'm not going to post the room numbers to Github - you can find this via your [AU Timetable](https://timetable.au.dk)
+Lectures take place on Tuesdays from 08-10; classroom instruction is on Wednesday from 10-112. For security reasons, I'm not going to post the room numbers to Github - you can find this via your [AU Timetable](https://timetable.au.dk)
 
 ## Course overview and readings
 
@@ -35,8 +35,9 @@ Make sure to read the studieording first if you have any questions relating to t
 
 ## Contact details
 
-Your lecturer for this course will be [Ross](au.dk/en/rdkm@cas). If you have any problems with the course or questions that you want to ask, just get in touch.
+Your lecturer for this course will be [Roberta](https://pure.au.dk/portal/en/persons/roberta-rocca(079b23a2-46f6-4a00-9cd6-9a1339101208)/persons/roberta-rocca(079b23a2-46f6-4a00-9cd6-9a1339101208).html). 
+If you have any problems with the course or questions that you want to ask, just get in touch.
 
-All communication to you will be sent _both_ on Slack _and_ via Blackboard. If you need to get in touch with Ross, Slack should be the first place to try - you'll likely get a quicker response!
+All communication to you will be sent _both_ on Slack _and_ via Blackboard. If you need to get in touch with Roberta, Slack should be the first place to try - you'll likely get a quicker response!
 
 
