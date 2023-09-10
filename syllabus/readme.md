@@ -4,6 +4,7 @@
 
 ## Overview ##
 
+### Purpose:
 The purpose of the course is to introduce students to advanced statistical methods used in the analysis of text and speech data. The course also introduces students to computational models used in speech and text recognition and prediction, and to models used to generate text and speech outputs in artificial intelligence systems, such as digital assistants and chat bots.
 
 The course addresses how we can approach theoretical and applied topics in the cognitive sciences using computational linguistics and natural language processing tools. Examples may include probabilistic topic modelling, sentiment analysis, and word2vec semantic analysis. The course also addresses key ethical topics that arise from the analysis of freely available natural language data, and in the development of natural language processing software and technologies. 
@@ -45,26 +46,24 @@ The assignment and the product must be submitted for assessment in the Digital E
 
 ## Schedule ##
 
-Each course element (1-13) is a four hour session, consisting of a 1hr lecture, 1hr coding task explanation, and 2hrs code-along session.
+Each course element (1-13) is a four hour session, consisting of a 2hr lecture and 2hrs coding session.
 
 | Week  | Session | Lecture | Classroom  |Reading |
 | :---: | :-----: | ----------| -------| ---|
-|  36   |    1    | Introductions               | [Work stack - Slack, UCloud, Github](classes/class1.md)                   | 
-|  37   |    2    | Simple text processing      | Basic NLP methods                    | _Hunston 2002, Chapters 1,2_       |
-|  38   |    3    | Classification 1            | Logistic regression and vectorization| _Jurafsky & Martin 2020, Chapter5_ |
-|  39   |    4    | Classification 2            | Neural networks with ```pytorch```   | _Nielsen 2019, Chapter 1_                     |
-|  40   |         |       *NO TEACHING*         |                            |                                              |
-|  41   |    5    | Word embeddings             | Exploring word embeddings  | _Mikolov et al 2013_                         |
-|  42   |         |       *NO TEACHING*         |                            | _Urban and Gates (2019)_                     |
-|  43   |    6    | Language Modelling 1        | Recurrent neural networks  |   _(No readings)_                            |
-|  44   |    7    | Language Modelling 2        | (Self-) Attention          | _Vaswani et al 2017; Lindsay et al 2020_     |
-|  45   |    8    | BERT                        | Project development        | _Rogers et al 2020_                         |
-|  46   |   9    | More BERT                   | Exploring BERT             | _Ettinger 2020_                              |
-|  47   |   10    | Project presentations       | Project presentations      | _Brown et al 2020_; Raffle et al 2019        |
-|  48   |   11    | GPT-3 & T5                  | Prompt engineering         | _CRFM 2019_                                  |
-|  49   |   12    | Social impact               | Project development  | _Mitchell et al. (2019)_; _Bender et al. (2021)_       |
+|  37   |    1    | Introduction to NLP               | [Work stack - UCloud, Github](classes/class1.md)                   | 
+|  38   |    2    | Count-based models and Vector Spaces      | Vector Spaces and Distance Metrics                   | _Hunston 2002, Chapters 1,2_       |
+|  40   |    3    | Word2Vec & Classification            | Exploring Word2Vec and building a simple classifier | _Jurafsky & Martin 2020, Chapter5_ |
+|  41   |    4    | Neural Networks            | Neural networks with ```pytorch```   | _Nielsen 2019, Chapter 1_                     |
+|  43   |    5    | Sequence Models            | Implementing an LSTM   | 
+|  44   |    6    | Attention & the transformer            | Project development  | _Mikolov et al 2013_                         |
+|  46   |    7    | Transfer learning        | Exploring BERT  |   _(No readings)_                            |
+|  47   |    8    | Language generation I       | Prompt engineering          | _Vaswani et al 2017; Lindsay et al 2020_     |
+|  48   |    9    | Language generation II                        | Training a model with instruction tuning         | _Rogers et al 2020_                         |
+|  49   |   10    | Project presentations                   | Project feedback session            | _Ettinger 2020_                              |
+|  50   |   11    | LLMs and Cognition       | Project presentations      | _Brown et al 2020_; Raffle et al 2019        |
+|  51   |   12    | Ethics and social impact                  | Prompt engineering         | _CRFM 2019_                                  |
 
-Typically lectures take place Wednesday 08:00 - 10:00 at 1467-515 and classes 12:00 - 14:00 1467-215.
+Typically lectures take place Tuesday 08:00 - 10:00 at 1485-240 and classes Wednesday 10:00 - 12:00 1481-239.
 
 
 ## Reading ##
@@ -100,22 +99,13 @@ The following resources are *not* compulsory assigned readings. Instead, these a
   * (2020). _Linear Algebra for Everyone_. Wellesley, MA: Wellesley-Cambridge Press.
 * VanderPlas, J. (2016). _Python Data Science Handbook_. [Access](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
-## Slack Channel ##
+## Padlet ##
 
 We will use the "CogSci-AU" channel for class-related communication. Please ask (and answer) questions in this Slack channel. There is no such thing as a stupid or trivial question! If a classmates asks a question you know an answer to, try and answer. Slack is not only for instructor-student interaction, it is for all students to share knowledge and resources, and to get answers as fast as possible. 
 
 Slack is best-suited for short technical questions and individual threads or channels for extended conversations on a given topic.
 
-## Rules of Slack ##
-
-1. use your github username or post.au.dk address to register and use the channel.
-2. post on the general, spatial-analytics, or other relevant channel instead of direct messaging instructors.
-3. use proper formatting: When asking questions involving code, please make sure to use inline code formatting for short bits of code or code snippets for longer, multi-line chunks
-    * Formatting messages: <https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages>
-    * Code snippets: <https://get.slack.help/hc/en-us/articles/204145658-Creating-a-Snippet>
-4. For specific coding advise, please use minimal reproducible examples, e.g. <https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example>
-
-## Asking questions (on Slack, in class, and elsewhere) ##
+## Asking questions (on the Padlet, in class, and elsewhere) ##
 
 1. Google It First! Google the error Python gives you. English language errors will have more solutions online.
 2. Search existing online resources (Google, StackOverflow, etc.) and class discussion on Slack for answers. If the question has already been answered, you're done!
@@ -127,7 +117,6 @@ Slack is best-suited for short technical questions and individual threads or cha
     * Be precise in your description:
         * Good description: "I am getting the following error and I'm not sure how to resolve it - ```ImportError: No module named spacy```"
         * Bad description: "Python is giving me errors."
-    * You can edit a question in Slack after posting it.
 
 ## Disability Resources ##
 
