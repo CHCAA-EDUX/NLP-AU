@@ -29,7 +29,7 @@ The general structure for classroom instruction is the following: I will present
 
 ## Class times
 
-Lectures take place on Tuesdays from 08-10; classroom instruction is on Wednesday from 10-112. For security reasons, I'm not going to post the room numbers to Github - you can find this via your [AU Timetable](https://timetable.au.dk)
+Lectures take place on Tuesdays from 08-10; classroom instruction is on Wednesday from 10-12. For security reasons, I'm not going to post the room numbers to Github - you can find this via your [AU Timetable](https://timetable.au.dk)
 
 ## Course overview and readings
 
