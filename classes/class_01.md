@@ -8,17 +8,16 @@ We'll also look a little bit at some more aspects of Python scripting. Taken tog
 
 ## Plan for today
 
-### UCloud
+### Github and UCloud
 
 - Integrating UCloud with Github
 - Adding Github token and set-up script
-
-### Github
-
-- Forking the main repo
+- Forking the main repo into your own repo
 
 ### Python scripting
-
 - Virtual environments
 - Requirements files
-- Adding command line arguments
+- Using command line arguments
+
+### Warm-up exercises
+- String manipulation
