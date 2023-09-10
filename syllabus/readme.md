@@ -63,7 +63,7 @@ Each course element (1-13) is a four hour session, consisting of a 2hr lecture a
 |  50   |   11    | LLMs and Cognition       | Project presentations      | _Brown et al 2020_; Raffle et al 2019        |
 |  51   |   12    | Ethics and social impact                  | Prompt engineering         | _CRFM 2019_                                  |
 
-Typically lectures take place Tuesday 08:00 - 10:00 at 1485-240 and classes Wednesday 10:00 - 12:00 1481-239.
+Typically lectures take place Tuesday 08:00 - 10:00 and classes Wednesday 10:00 - 12:00.
 
 
 ## Reading ##
@@ -77,7 +77,6 @@ Other suggested readings might be given in lectures related to more specific top
 * Brown, T.B., et al. (2020). "Language Models are Few-shot Learners", [arXiv:2005.14165](https://arxiv.org/abs/2005.14165) [cs.CL]
 * Center for Research on Foundation Models (CRFM) (2019). "On the Opportunities and Risks of Foundation Models", [arXiv:2108.07258](https://arxiv.org/abs/2108.07258) [cs.LG]
 * Ettinger, A. (2020). "What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models", _Transactions of the Association for Computational Linguistics_, 8, 34–48.
-* Hunston, S. (2002). _Corpora in Applied Linguistics_. Cambridge: Cambridge University Press.
 * Jurafsky, D. & Martin, J.H. (2021). _Speech and Language Processing_, 3rd edition online pre-print. [Access](https://web.stanford.edu/~jurafsky/slp3/)
 * Lindsay, G.W. (2020). "Attention in Psychology, Neuroscience, and Machine Learning", _Frontiers in Computational Neuroscience_, 14(29), 1-21.
 * Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). "Efficient Estimation of Word Representations in Vector Space". [arXiv:1301.3781](https://arxiv.org/abs/1301.3781) [cs.CL]

@@ -1,4 +1,4 @@
-# Natural Language Processing - Autumn 2022
+# Natural Language Processing - Autumn 2023
 
 This repository contains all of the code and data related to the module _Natural Language Processing_ taken as part of the  [MSc in Cognitive Science](https://masters.au.dk/cognitivescience) at Aarhus University.
 
@@ -18,9 +18,13 @@ This repository has been initialised with the following directory structure:
 
 | Column | Description|
 |--------|:-----------|
-```classes``` | Instructions for each of the classrooms, including assignments.
+```classes``` | Instructions for each of the classrooms.
 ```src``` | A folder for Python scripts developed in class.
 ```syllabus```| Containing a markdown file with the course syllabus and readings.
+```nbs```| Will contain the solutions to assignments and classes.
+
+## Classroom instruction
+The general structure for classroom instruction is the following: I will present you with a few exercises, which you can work on solving in class and at home. The week after, I will provide my solution to the exercise, and briefly guide you through it. We can discuss your own solutions in class too, but I will not be able to provide individualized feedback (and assignments will not be graded).
 
 
 ## Class times
@@ -38,6 +42,6 @@ Make sure to read the studieording first if you have any questions relating to t
 Your lecturer for this course will be [Roberta](https://pure.au.dk/portal/en/persons/roberta-rocca(079b23a2-46f6-4a00-9cd6-9a1339101208)/persons/roberta-rocca(079b23a2-46f6-4a00-9cd6-9a1339101208).html). 
 If you have any problems with the course or questions that you want to ask, just get in touch.
 
-All communication to you will be sent _both_ on Slack _and_ via Blackboard. If you need to get in touch with Roberta, Slack should be the first place to try - you'll likely get a quicker response!
+All communication to you will be sent via Blackboard.
 
 
