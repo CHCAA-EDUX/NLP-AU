@@ -16,15 +16,9 @@ We'll also look a little bit at some more aspects of Python scripting. Taken tog
 ### Github
 
 - Forking the main repo
-- Github Classrooms
 
 ### Python scripting
 
 - Virtual environments
 - Requirements files
 - Adding command line arguments
-
-## Assignments
-
-- Two assignments via Github Classroom
-  - One is an optional tour of Github
