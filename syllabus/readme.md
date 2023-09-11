@@ -51,8 +51,8 @@ Each course element (1-13) is a four hour session, consisting of a 2hr lecture a
 | Week  | Session | Lecture | Classroom  |Reading |
 | :---: | :-----: | ----------| -------| ---|
 |  37   |    1    | Introduction to NLP               | UCloud, Github, Python warm-up                  | 
-|  38   |    2    | Count-based models and Vector Spaces      | Vector Spaces | _Jurafsky & Martin, Chapter6, pp.5-17_; _Baroni et al., 2014_       |
-|  40   |    3    | Word2Vec            | Exploring Word2Vec and building a simple classifier | _Jurafsky & Martin 2020, Chapter6, pp.17-28_; _Mikolov et al., 2013_ |
+|  38   |    2    | Count-based models and Vector Spaces      | SpaCy, word vectors, document vectors | _Jurafsky & Martin, Chapter6, pp.5-17_; _Baroni et al., 2014_       |
+|  40   |    3    | Word2Vec            | Exploring word vectors | _Jurafsky & Martin 2020, Chapter6, pp.17-28_; _Mikolov et al., 2013_ |
 |  41   |    4    | Neural Networks            | Neural networks with ```pytorch```   | _Nielsen 2019, Chapter 1_             |
 |  43   |    5    | Sequence Models            | Implementing an LSTM   | _Urban and Gates, 2020_  |
 |  44   |    6    | Attention & the transformer            | Project development  |  _Vaswani et al 2017_; _Lindsay et al 2020_   |
