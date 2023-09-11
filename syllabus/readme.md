@@ -119,7 +119,7 @@ We will use Brightspace for class-related communication. Please ask (and answer)
 ## Asking questions (on the Padlet, in class, and elsewhere) ##
 
 1. Google It First! Google the error Python gives you. English language errors will have more solutions online.
-2. Search existing online resources (Google, StackOverflow, etc.) and class discussion on Slack for answers. If the question has already been answered, you're done!
+2. Search existing online resources (Google, StackOverflow, etc.) and class discussion on the Padlet for answers. If the question has already been answered, you're done!
 3. If it has already been asked but you're not satisfied with the answer, refine your question to get the answer you need, and add to the thread.
     * Document the questions you ask and the responses.
     * Give your question context from course concepts not course assignments
