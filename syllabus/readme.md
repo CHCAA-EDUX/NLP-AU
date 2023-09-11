@@ -59,7 +59,7 @@ Each course element (1-13) is a four hour session, consisting of a 2hr lecture a
 |  46   |    7    | Transfer learning        | Exploring BERT  |  _Devlin et al., 2019_; _Rogers et al., 2020_               |
 |  47   |    8    | Language generation I       | Prompt engineering          |  _Brown et al 2020_; _Raffel et al 2019_ |
 |  48   |    9    | Language generation II                        | Training a model with instruction tuning         |  _Wei et al., 2021_; _Ouyang et al., 2022_ |
-|  49   |   10    | Project presentations                   | Project feedback | _no readings_ |
+|  49   |   10    | Project presentations                   | Project feedback | |
 |  50   |   11    | LLMs and Cognition       | Discussion      | _group-specific readings_ |
 |  51   |   12    | Ethics and social impact                  | Project development         | _Bender et al., 2021_; _Mitchell et al., 2019_  |
 
@@ -112,11 +112,9 @@ The following resources are *not* compulsory assigned readings. Instead, these a
   * (2020). _Linear Algebra for Everyone_. Wellesley, MA: Wellesley-Cambridge Press.
 * VanderPlas, J. (2016). _Python Data Science Handbook_. [Access](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
-## Padlet ##
+## Padlet on Brightspace ##
 
-We will use the "CogSci-AU" channel for class-related communication. Please ask (and answer) questions in this Slack channel. There is no such thing as a stupid or trivial question! If a classmates asks a question you know an answer to, try and answer. Slack is not only for instructor-student interaction, it is for all students to share knowledge and resources, and to get answers as fast as possible. 
-
-Slack is best-suited for short technical questions and individual threads or channels for extended conversations on a given topic.
+We will use Brightspace for class-related communication. Please ask (and answer) questions in the Padlet, which you can find under `General Information`. There is no such thing as a stupid or trivial question! If a classmates asks a question you know an answer to, try and answer. The padlet is not only for instructor-student interaction, it is for all students to share knowledge and resources, and to get answers as fast as possible. 
 
 ## Asking questions (on the Padlet, in class, and elsewhere) ##
 
