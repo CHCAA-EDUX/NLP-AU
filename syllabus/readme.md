@@ -50,8 +50,8 @@ Each course element (1-13) is a four hour session, consisting of a 2hr lecture a
 
 | Week  | Session | Lecture | Classroom  |Reading |
 | :---: | :-----: | ----------| -------| ---|
-|  37   |    1    | Introduction to NLP               | [UCloud, Github, Python warm-up](classes/class1.md)                   | 
-|  38   |    2    | Count-based models and Vector Spaces      | Vector Spaces and Distance Metrics                   | _Jurafsky & Martin, Chapter6, pp.5-17_; _Baroni et al., 2014_       |
+|  37   |    1    | Introduction to NLP               | UCloud, Github, Python warm-up                  | 
+|  38   |    2    | Count-based models and Vector Spaces      | Vector Spaces | _Jurafsky & Martin, Chapter6, pp.5-17_; _Baroni et al., 2014_       |
 |  40   |    3    | Word2Vec            | Exploring Word2Vec and building a simple classifier | _Jurafsky & Martin 2020, Chapter6, pp.17-28_; _Mikolov et al., 2013_ |
 |  41   |    4    | Neural Networks            | Neural networks with ```pytorch```   | _Nielsen 2019, Chapter 1_             |
 |  43   |    5    | Sequence Models            | Implementing an LSTM   | _Urban and Gates, 2020_  |
@@ -59,9 +59,9 @@ Each course element (1-13) is a four hour session, consisting of a 2hr lecture a
 |  46   |    7    | Transfer learning        | Exploring BERT  |  _Devlin et al., 2019_; _Rogers et al., 2020_               |
 |  47   |    8    | Language generation I       | Prompt engineering          |  _Brown et al 2020_; _Raffel et al 2019_ |
 |  48   |    9    | Language generation II                        | Training a model with instruction tuning         |  _Wei et al., 2021_; _Ouyang et al., 2022_ |
-|  49   |   10    | Project presentations                   | Project feedback session | _no readings_ |
+|  49   |   10    | Project presentations                   | Project feedback | _no readings_ |
 |  50   |   11    | LLMs and Cognition       | Discussion      | _group-specific readings_ |
-|  51   |   12    | Ethics and social impact                  | Prompt engineering         | _Bender et al., 2021_; _Mitchell et al., 2019_  |
+|  51   |   12    | Ethics and social impact                  | Project development         | _Bender et al., 2021_; _Mitchell et al., 2019_  |
 
 Typically lectures take place Tuesday 08:00 - 10:00 and classes Wednesday 10:00 - 12:00.
 
@@ -89,7 +89,7 @@ Other suggested readings might be given in lectures related to more specific top
 * Vaswani, A, Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., Kaiser, Ł, & Polosukhin, I. (2017). "Attention is all you need", NIPS'17: Proceedings of the 31st International Conference on Neural Information Processing Systems.
 * Wei, J., Bosma, M., Zhao, V. Y., Guu, K., Yu, A. W., Lester, B., ... & Le, Q. V. (2021). "Finetuned language models are zero-shot learners". [arXiv:2109.01652](https://arxiv.org/abs/2109.01652)
 
-Note that, in this folder, you will also find a list of additional resources relevant for each class.
+Note that, in this folder, you will also find a list of [additional resources relevant for each lecture](`extra_resources.md`).
 
 ## Group-specific readings for Week 50
 * **Group 1**: Binz, M., & Schulz, E. (2023). "Turning large language models into cognitive models". [arXiv:2306.03917](https://arxiv.org/abs/2306.03917).
