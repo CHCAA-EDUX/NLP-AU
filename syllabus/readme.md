@@ -56,12 +56,12 @@ Each course element (1-13) is a four hour session, consisting of a 2hr lecture a
 |  41   |    4    | Neural Networks            | Neural networks with ```pytorch```   | _Nielsen 2019, Chapter 1_             |
 |  43   |    5    | Sequence Models            | Implementing an LSTM   | _Urban and Gates, 2020_  |
 |  44   |    6    | Attention & the transformer            | Project development  |  _Vaswani et al 2017_; _Lindsay et al 2020_   |
-|  46   |    7    | Transfer learning        | Exploring BERT  |  _Devlin et al., 2019_; _Rogers et al., 2020_               |
-|  47   |    8    | Language generation I       | Prompt engineering          |  _Brown et al 2020_; _Raffel et al 2019_ |
-|  48   |    9    | Language generation II                        | Training a model with instruction tuning         |  _Wei et al., 2021_; _Ouyang et al., 2022_ |
-|  49   |   10    | Project presentations                   | Project feedback | |
-|  50   |   11    | LLMs and Cognition       | Discussion      | _group-specific readings_ |
-|  51   |   12    | Ethics and social impact                  | Project development         | _Bender et al., 2021_; _Mitchell et al., 2019_  |
+|  45   |    7    | Transfer learning        | Exploring BERT  |  _Devlin et al., 2019_; _Rogers et al., 2020_               |
+|  46   |    8    | Language generation I       | Prompt engineering          |  _Brown et al 2020_; _Raffel et al 2019_ |
+|  47   |    9    | Language generation II                        | Training a model with instruction tuning         |  _Wei et al., 2021_; _Ouyang et al., 2022_ |
+|  48   |   10    | Project presentations                   | Project feedback | |
+|  49   |   11    | LLMs and Cognition       | Discussion      | _group-specific readings_ |
+|  50   |   12    | Ethics and social impact                  | Project development         | _Bender et al., 2021_; _Mitchell et al., 2019_  |
 
 Typically lectures take place Tuesday 08:00 - 10:00 and classes Wednesday 10:00 - 12:00.
 
