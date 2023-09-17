@@ -19,9 +19,9 @@ This may be updated over the semester.
 * If you want a deep dive into word embeddings, you can check out this playlist: https://www.youtube.com/playlist?list=PLhWB2ZsrULv-wEM8JDKA1zk8_2Lc88I-s
 
 ### Lecture 4
-* Lecture 3 of Stanford’s CS224 course (https://youtu.be/X0Jw4kgaFlg?si=xQfneC22t8_xnxU-) -* lots of maths, don't feel like you know it all
-* With same content; Jurafsky & Martin, 2020 * Chapter 7 (https://web.stanford.edu/~jurafsky/slp3/7.pdf) -* also a bit dense
-* You can also check out the first lecture in this MIT course: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI -* more "practical", and it concerns neural nets in general
+* Lecture 3 of Stanford’s CS224 course (https://youtu.be/X0Jw4kgaFlg?si=xQfneC22t8_xnxU-) - lots of maths, don't feel like you have to it all
+* With same content; Jurafsky & Martin, 2020 * Chapter 7 (https://web.stanford.edu/~jurafsky/slp3/7.pdf) - also a bit dense
+* You can also check out the first lecture in this MIT course: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI - more "practical", and it concerns neural nets in general
 * DeepLearning.AI course on Neural Networks (~Week 1-2): https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0
 
 ### Lecture 5
