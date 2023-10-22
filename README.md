@@ -1,82 +1,49 @@
-# Summary
-This repo contains one possible solution to assignment 4, training a (Bi-)LSTM for named entity recognition.
+# Natural Language Processing - Autumn 2023
 
-This assignment using the [CONLLPP dataset](https://huggingface.co/datasets/conllpp) from Huggingface and uses Pytorch for model training.
+This repository contains all of the code and data related to the module _Natural Language Processing_ taken as part of the  [MSc in Cognitive Science](https://masters.au.dk/cognitivescience) at Aarhus University.
 
-The results are logged using [Weights and Biases](https://wandb.ai/). You can sign up for free for this service and use it to track your own models during training. This is a really useful way of following models during training and sharing the results with other people.
+This repository is in active development, with new material being pushed on a weekly basis. Slides will be uploaded to Brightspace.
 
-For example, [here are the training loss curves for some models I trained](https://wandb.ai/rdkm/classrooms/reports/loss-22-11-11-10-55-25---VmlldzoyOTUzODMw?accessToken=bgjx2zzqhhoie6ew5qjbqpok82r3hluqf9xn7kzqj7kj5kxghasdauxhilxalgfc).
+## Technicalities
 
-<!-- 
-This should include a short description of which models you have tried and conclusions from comparing these models. This should be no longer than an abstract. This section can also include questions regarding the assignment.
--->
+For the sake of convenience, I advise that everyone uses [UCloud](https://cloud.sdu.dk) for development purposes. You can then fork this repo and pull any changes that are made on a weekly basis.
 
-# Performance
-The table below presents one set of results from one model, trained with the default parameters set in [main.py](ner/main.py)
-<!-- 
-This should include a table of performance metrics of different models. The performance metrics should at least include accuracy and F1-score.
- -->
-```
-              precision    recall  f1-score   support
+For those of you who do not wish to use UCloud, you are of course welcome to use your own machine. However, due to time constraints, we will not be providing any technical support if you choose to go this way. 
 
-         LOC       0.78      0.86      0.82      1646
-        MISC       0.62      0.53      0.57       723
-         ORG       0.75      0.59      0.66      1715
-         PER       0.83      0.83      0.83      1618
+If you _still_ want to use your own machine, make sure to have _at least_ Python 3.7 installed. Some of the code developed in the classroom will not be backwards compatible with earlier versions of Python.
 
-   micro avg       0.77      0.73      0.75      5702
-   macro avg       0.74      0.70      0.72      5702
-weighted avg       0.76      0.73      0.74      5702
-```
+## Repo structure
 
-## Project Organization
-The organization of the project is as follows:
+This repository has been initialised with the following directory structure:
 
-<!-- 
-Correct this to reflect changes
--->
+| Column | Description|
+|--------|:-----------|
+```classes``` | Instructions for each of the classrooms.
+```src``` | A folder for Python scripts developed in class.
+```syllabus```| Containing a markdown file with the course syllabus and readings, as well as a file listing additional resources.
+```nbs```| Will contain the solutions to assignments and classes.
+```data```| Will contain data we will use for some of the exercises.
 
-```
-├── LICENSE                    <- the license of this code
-├── README.md                  <- The top-level README for this project.
-├── .github            
-│   └── workflows              <- workflows to automatically run when code is pushed
-│   │    └── pytest.yml        <- A workflow which runs pytests upon push
-├── ner                        <- The main folder for scripts
-|   └── ...
-├── .gitignore                 <- A list of files not uploaded to git
-├── requirements.txt            <- A requirements file of the required packages.
-└── assignment_description.md  <- the assignment description
-```
+## Classroom instruction
+The general structure for classroom instruction is the following: I will present you with a few exercises, which you can work on solving in class and at home. The week after, I will provide my solution to the exercise, and briefly guide you through it. We can discuss your own solutions in class too, but I will not be able to provide individualized feedback (and assignments will not be graded).
 
 
+## Class times
 
-## Running the code
-To run the whole project including installing the requirements, you can simply run the following (macOS or Linux only):
+Lectures take place on Tuesdays from 08-10; classroom instruction is on Wednesday from 10-12. For security reasons, I'm not going to post the room numbers to Github - you can find this via your [AU Timetable](https://timetable.au.dk).
+**NOTE**: the location for October 25th is _different_ from all other weeks!
 
-```
-bash run.sh
-```
+## Course overview and readings
 
-If you wish to perform these steps manually, you should first update pip and install the requirements:
-<!-- 
-Update the code below such that it runs all the experiments in the performance section and print the performances.
--->
+A detailed breakdown of the course structure and the associated readings can be found in the [syllabus](syllabus/readme.md). Also, be sure to familiarize yourself with the [_studieordning_](https://eddiprod.au.dk/EDDI/webservices/DokOrdningService.cfc?method=visGodkendtOrdning&dokOrdningId=17274&sprog=en) for the course, especially in relation to examination and academic regulations. 
 
-```
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+Make sure to read the studieording first if you have any questions relating to the course organisation, exam format, and so forth.
 
-Then, you can reproduce the experiments by running:
+## Contact details
 
-```
-python ner/main.py experiments
-```
+Your lecturer for this course will be [Roberta](https://pure.au.dk/portal/en/persons/roberta-rocca(079b23a2-46f6-4a00-9cd6-9a1339101208)/persons/roberta-rocca(079b23a2-46f6-4a00-9cd6-9a1339101208).html). 
+If you have any problems with the course or questions that you want to ask, just get in touch.
 
-Finally, you can run a new experiment by running the program with optional arguments:
-```
-python ner/main.py -e 100 -gE glove-wiki-gigaword-50
-```
+All communication to you will be sent via Brightspace.
 
-Run `python ner/main.py --help` for all optional arguments.
+
