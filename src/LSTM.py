@@ -1,6 +1,7 @@
 import torch 
 from torch import nn
 import torch.nn.functional as F
+import numpy as np
 
 class LSTMModel(nn.Module):
     def __init__(self, 
@@ -46,7 +47,7 @@ class LSTMModel(nn.Module):
         We can leverage this to filter out the PAD tokens when we compute the loss.
         """
         #reshape labels to give a flat vector of length batch_size*seq_len
-        labels = labels.view(-1)  
+        labels = labels.view(-1)
 
         #mask out 'PAD' tokens
         mask = (labels >= 0).float()
