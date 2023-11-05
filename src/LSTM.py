@@ -17,18 +17,22 @@ class LSTMModel(nn.Module):
         # the LSTM takes an embedded sentence
         self.lstm = nn.LSTM(self.embedding_size, 
                             hidden_dim_size, 
-                            batch_first=True)
+                            batch_first=True,
+                            bidirectional=True # NOTE: if added, input size for the linear layer needs to be adapted!
+                            ) 
 
         # fc (fully connected) layer transforms the LSTM-output to give the final output layer
-        self.fc = nn.Linear(hidden_dim_size, 
+        self.fc = nn.Linear(hidden_dim_size*2,  # NOTE: remove *2 if not bidirectional
                             output_dim)
 
     def forward(self, X):
+        # input size: batch_size x batch_max_len
         # apply the embedding layer that maps each token to its embedding
         x = self.embedding(X)  # dim: batch_size x batch_max_len x embedding_dim
 
         # run the LSTM along the sentences of length batch_max_len
         x, _ = self.lstm(x)  # dim: batch_size x batch_max_len x lstm_hidden_dim
+        # NOTE: the second output here is [hidden_state, cell_states] -- but we only need outputs states :) 
 
         # reshape the Variable so that each row contains one token
         # such that it is a valid input to the fully connected layer
@@ -38,19 +42,20 @@ class LSTMModel(nn.Module):
         x = self.fc(x)  # dim: batch_size*batch_max_len x num_tags
 
         return F.log_softmax(x, dim=1)  # dim: batch_size*batch_max_len x num_tags
+        # note: cross-entropy requires log of predictions, hence the log
 
     @staticmethod
     def loss_fn(outputs, labels):
         """
         Custom loss function. 
-        In the section on preparing batches, we ensured that the labels for the PAD tokens were set to -1. 
+        In the section on preparing batches, we ensured that the labels for the PAD tokens were set to 9. 
         We can leverage this to filter out the PAD tokens when we compute the loss.
         """
         #reshape labels to give a flat vector of length batch_size*seq_len
         labels = labels.view(-1)
 
         #mask out 'PAD' tokens
-        mask = (labels >= 0).float()
+        mask = (labels <= 8).float()
 
         #the number of tokens is the sum of elements in mask
         num_tokens = int(torch.sum(mask))
