@@ -91,7 +91,7 @@ Other suggested readings might be given in lectures related to more specific top
 
 Note that, in this folder, you will also find a list of [additional resources relevant for each lecture](`extra_resources.md`).
 
-## Group-specific readings for Week 50
+## Group-specific readings for Week 49
 * **Group 1**: Binz, M., & Schulz, E. (2023). "Turning large language models into cognitive models". [arXiv:2306.03917](https://arxiv.org/abs/2306.03917).
 * **Group 2**: Ippolito, D., Duckworth, D., Callison-Burch, C., & Eck, D. (2019). "Automatic detection of generated text is easiest when humans are fooled". [arXiv:1911.00650](https://arxiv.org/abs/1911.00650).
 * **Group 3**: Frank, M. C. (2023). "Bridging the data gap between children and large language models". Trends in Cognitive Sciences (available [here](https://www.sciencedirect.com/science/article/pii/S1364661323002036)); Zaadnoordijk, L., Besold, T. R., & Cusack, R. (2022). "Lessons from infant learning for unsupervised machine learning". Nature Machine Intelligence, 4(6), 510-520 (available [here](https://www.nature.com/articles/s42256-022-00488-2)).
