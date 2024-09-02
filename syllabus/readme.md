@@ -1,6 +1,6 @@
 # Syllabus: Natural Language Processing #
 
-**NB: The information presented here has been taken from the [AU Course Catalogue](https://kursuskatalog.au.dk/en/course/119713/Natural-Language-Processing). It should be viewed as indicative, rather than definitive. In the case of errors, the official AU version is binding.**
+**NB: The information presented here has been taken from the [AU Course Catalogue](https://kursuskatalog.au.dk/en/course/123489/Natural-Language-Processing). It should be viewed as indicative, rather than definitive. In the case of errors, the official AU version is binding.**
 
 ## Overview ##
 
@@ -48,22 +48,23 @@ The assignment and the product must be submitted for assessment in the Digital E
 
 Each course element (1-12) is a four hour session, consisting of a 2hr lecture and 2hrs coding session.
 
-| Week  | Session | Lecture | Classroom  |Reading |
-| :---: | :-----: | ----------| -------| ---|
-|  37   |    1    | Introduction to NLP               | UCloud, Github, Python warm-up                  | 
-|  38   |    2    | Count-based models and Vector Spaces      | SpaCy, word vectors, document vectors | _Jurafsky & Martin, Chapter6, pp.5-17_; _Baroni et al., 2014_       |
-|  40   |    3    | Word2Vec            | Exploring word vectors | _Jurafsky & Martin 2020, Chapter6, pp.17-28_; _Mikolov et al., 2013_ |
-|  41   |    4    | Neural Networks            | Neural networks with ```pytorch```   | _Nielsen 2019, Chapter 1_             |
-|  43   |    5    | Sequence Models            | Implementing an LSTM   | _Urban and Gates, 2020_  |
-|  44   |    6    | Attention & the transformer            | Project development  |  _Vaswani et al 2017_; _Lindsay et al 2020_   |
-|  45   |    7    | Transfer learning        | Exploring BERT  |  _Devlin et al., 2019_; _Rogers et al., 2020_               |
-|  46   |    8    | Language generation I       | Prompt engineering          |  _Brown et al 2020_; _Raffel et al 2019_ |
-|  47   |    9    | Language generation II                        | Training a model with instruction tuning         |  _Wei et al., 2021_; _Ouyang et al., 2022_ |
-|  48   |   10    | Project presentations                   | Project feedback | |
-|  49   |   11    | LLMs and Cognition       | Discussion      | _group-specific readings_ |
-|  50   |   12    | Ethics and social impact                  | Project development         | _Bender et al., 2021_; _Mitchell et al., 2019_  |
+| Week  | Session | Lecture                                | Classroom                           | Reading                                                                                                                                                                                                                                                                                                                                                         |
+| :---: | :-----: | -------------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  37   |    1    | Introduction to NLP                    | Ucloud, Github, Prompting           | [Manning 2015](https://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00239), Philosophy of understanding (§2.6 of the "Foundation Models" [report](https://crfm.stanford.edu/assets/report.pdf#philosophy)),  [Artificial Intelligence: Last Week Tonight](https://youtu.be/Sqa8Zo2XWc4),  [Montani 2024](https://ines.io/blog/window-knocking-machine-test/) |
+|  38   |    2    | Word representations and vector spaces | Exploring word vectors              | *Jurafsky & Martin 2020, Chapter6, pp.5-28*; *Pennington et al., 2014* (probably glove instead)                                                                                                                                                                                                                                                                 |
+|  39   |         |                                        |                                     |                                                                                                                                                                                                                                                                                                                                                                 |
+|  40   |    3    | Document representations               | Classification from representations | *Baroni et al., 2014*, go to the workshop!                                                                                                                                                                                                                                                                                                                      |
+|  41   |    4    | Neural Networks                        | Neural networks with `pytorch`      | *Nielsen 2019, Chapter 1* (3b1b deep learning)                                                                                                                                                                                                                                                                                                                  |
+|  43   |    5    | Contextual Embeddings I                | Comparing contextual vectors        | *Vaswani et al 2017*; *Lindsay et al 2020*                                                                                                                                                                                                                                                                                                                      |
+|  44   |    6    | Too be added                           |                                     |                                                                                                                                                                                                                                                                                                                                                                 |
 
-Typically lectures take place Tuesday 08:00 - 10:00 and classes Wednesday 10:00 - 12:00.
+<!-- | 44 | 6 | Contextual Embeddings II |  | Too be announced |
+| 45 | 7 | Transfer learning | Exploring BERT (NER) | *Devlin et al., 2019*; *Rogers et al., 2020* |
+| 46 | 8 | Language generation I | Prompt engineering | *Brown et al 2020*; *Raffel et al 2019* |
+| 47 | 9 | Language generation II | Training a model with instruction tuning | *Wei et al., 2021*; *Ouyang et al., 2022* |
+| 48 | 12 | Ethics and social impact | Project development | *Bender et al., 2021*; *Mitchell et al., 2019* |
+| 49 | 11 | LLMs and Cognition | Discussion | *group-specific readings* |
+| 50 | 10 | Project presentations | Project feedback | Prepare projects | -->
 
 
 ## Reading ##
@@ -74,24 +75,25 @@ The assigned readings are a mixture of different kinds of papers. Some of them a
 Other suggested readings might be given in lectures related to more specific topics - these will not be compulsory, only for those who wish to explore a specific topic in more detail. However, the following assigned readings will be referred to during lectures, so make sure to read them!
 
 * Baroni, M., Dinu, G., Kruszewski, G. (2014). "Don’t count, predict! a systematic comparison of context-counting vs. context-predicting semantic vectors." In Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 238-247 (available [here](https://aclanthology.org/P14-1023/))
-* Bender, E.M., Gebru, T., McMillan-Major, A., Schmitchell, S. (2021). "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜". In Proceedings of FAccT 2021, pp.610-623 (available [here](https://dl.acm.org/doi/10.1145/3442188.3445922))
+<!-- * Bender, E.M., Gebru, T., McMillan-Major, A., Schmitchell, S. (2021). "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜". In Proceedings of FAccT 2021, pp.610-623 (available [here](https://dl.acm.org/doi/10.1145/3442188.3445922))
 * Brown, T.B., et al. (2020). "Language Models are Few-shot Learners", [arXiv:2005.14165](https://arxiv.org/abs/2005.14165) [cs.CL]
-* Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). "Bert: Pre-training of deep bidirectional transformers for language understanding". [arXiv:1810.04805](https://arxiv.org/abs/1810.04805).
+* Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). "Bert: Pre-training of deep bidirectional transformers for language understanding". [arXiv:1810.04805](https://arxiv.org/abs/1810.04805). -->
+* Jeffrey Pennington, Richard Socher, and Christopher Manning. 2014. GloVe: Global Vectors for Word Representation. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1532–1543, Doha, Qatar. Association for Computational Linguistics (available [here](https://aclanthology.org/D14-1162/))
 * Jurafsky, D. & Martin, J.H. (2021). _Speech and Language Processing_, 3rd edition online pre-print. [Access](https://web.stanford.edu/~jurafsky/slp3/);
 * Lindsay, G.W. (2020). "Attention in Psychology, Neuroscience, and Machine Learning", _Frontiers in Computational Neuroscience_, 14(29), 1-21 (available [here](https://www.frontiersin.org/articles/10.3389/fncom.2020.00029/full))
 * Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). "Efficient Estimation of Word Representations in Vector Space". [arXiv:1301.3781](https://arxiv.org/abs/1301.3781) [cs.CL]
-* Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I.D., & Gebru, T. (2019). "Model Cards for Model Reporting". In *Proceedings of the Conference on Fairness, Accountability, and Transparency* (FAT* '19). _Association for Computing Machinery_, New York, NY, USA, 220–229 (available [here](https://arxiv.org/abs/1810.03993))
+<!-- * Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I.D., & Gebru, T. (2019). "Model Cards for Model Reporting". In *Proceedings of the Conference on Fairness, Accountability, and Transparency* (FAT* '19). _Association for Computing Machinery_, New York, NY, USA, 220–229 (available [here](https://arxiv.org/abs/1810.03993)) -->
 * Nielsen, M. (2019). "Neural Networks and Deep Learning", available online [here](http://neuralnetworksanddeeplearning.com/). Accessible as single PDF [here](https://static.latexstudio.net/article/2018/0912/neuralnetworksanddeeplearning.pdf)
-* Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., ... & Lowe, R. (2022). "Training language models to follow instructions with human feedback". In *Advances in Neural Information Processing Systems*, 35
+<!-- * Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., ... & Lowe, R. (2022). "Training language models to follow instructions with human feedback". In *Advances in Neural Information Processing Systems*, 35
 * Raffel, C., et al. (2020). "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", [arXiv:1910.10683](https://arxiv.org/abs/1910.10683) [cs.LG]
 * Rogers, A., Kovaleva, O., & Rumshisky, A. (2020). "A Primer in BERTology: what we know about about how BERT works", _Transactions of the Association for Computational Linguistics_, 8, 842-866 (available [here](https://aclanthology.org/2020.tacl-1.54/))
-* Urban, C.J & Gates, K.M. (2020). "Deep Learning: A Primer for Psychologists", _Psychological Methods_, 26(6), 743–773 (available [here](https://psycnet.apa.org/record/2021-31499-001))
+* Urban, C.J & Gates, K.M. (2020). "Deep Learning: A Primer for Psychologists", _Psychological Methods_, 26(6), 743–773 (available [here](https://psycnet.apa.org/record/2021-31499-001)) -->
 * Vaswani, A, Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., Kaiser, Ł, & Polosukhin, I. (2017). "Attention is all you need", NIPS'17: Proceedings of the 31st International Conference on Neural Information Processing Systems (available [here](https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html))
-* Wei, J., Bosma, M., Zhao, V. Y., Guu, K., Yu, A. W., Lester, B., ... & Le, Q. V. (2021). "Finetuned language models are zero-shot learners". [arXiv:2109.01652](https://arxiv.org/abs/2109.01652)
+<!-- * Wei, J., Bosma, M., Zhao, V. Y., Guu, K., Yu, A. W., Lester, B., ... & Le, Q. V. (2021). "Finetuned language models are zero-shot learners". [arXiv:2109.01652](https://arxiv.org/abs/2109.01652) -->
 
 Note that, in this folder, you will also find a list of [additional resources relevant for each lecture](`extra_resources.md`).
 
-## Group-specific readings for Week 49
+<!-- ## Group-specific readings for Week 49
 * **Group 1**: Binz, M., & Schulz, E. (2023). "Turning large language models into cognitive models". [arXiv:2306.03917](https://arxiv.org/abs/2306.03917).
 * **Group 2**: Ippolito, D., Duckworth, D., Callison-Burch, C., & Eck, D. (2019). "Automatic detection of generated text is easiest when humans are fooled". [arXiv:1911.00650](https://arxiv.org/abs/1911.00650).
 * **Group 3**: Frank, M. C. (2023). "Bridging the data gap between children and large language models". Trends in Cognitive Sciences (available [here](https://www.sciencedirect.com/science/article/pii/S1364661323002036)); Zaadnoordijk, L., Besold, T. R., & Cusack, R. (2022). "Lessons from infant learning for unsupervised machine learning". Nature Machine Intelligence, 4(6), 510-520 (available [here](https://www.nature.com/articles/s42256-022-00488-2)).
@@ -99,7 +101,7 @@ Note that, in this folder, you will also find a list of [additional resources re
 * **Group 5**: Park, J. S., O'Brien, J. C., Cai, C. J., Morris, M. R., Liang, P., & Bernstein, M. S. (2023). "Generative agents: Interactive simulacra of human behavior". [arXiv:2304.03442](https://arxiv.org/abs/2304.03442).
 * **Group 6**: Bender, E. M., & Koller, A. (2020). "Climbing towards NLU: On meaning, form, and understanding in the age of data". In _Proceedings of the 58th annual meeting of the association for computational linguistics_ (pp. 5185-5198), available [here](https://aclanthology.org/2020.acl-main.463/)
 * **Group 7**: Dou, Y., Forbes, M., Koncel-Kedziorski, R., Smith, N. A., & Choi, Y. (2021). "Is GPT-3 text indistinguishable from human text? SCARECROW: A framework for scrutinizing machine text." [arXiv:2107.01294](https://arxiv.org/abs/2107.01294).
-* **Group 8**: Sap, M., LeBras, R., Fried, D., & Choi, Y. (2022). "Neural theory-of-mind? On the limits of social intelligence in large lms." [arXiv:2210.13312](https://arxiv.org/abs/2210.13312)
+* **Group 8**: Sap, M., LeBras, R., Fried, D., & Choi, Y. (2022). "Neural theory-of-mind? On the limits of social intelligence in large lms." [arXiv:2210.13312](https://arxiv.org/abs/2210.13312) -->
 
 ## Additional Resources ###
 The following resources are *not* compulsory assigned readings. Instead, these are a mixture of textbooks and other resources which can be used as reference texts. Specifically, these will be useful for people who want to improve their understanding of linear algebra and neural networks. I strongly recommend all of the textbooks by Gilbert Strang - he's a fantastically clear writer, which is a rare skill among mathematicians. VanderPlas (2016) is a useful reference text for basic data science using Python (pandas, matplotlib, scikit-learn). It's below the level we'll be working at but it's good to have nevertheless.
@@ -114,9 +116,9 @@ The following resources are *not* compulsory assigned readings. Instead, these a
 
 ## Padlet on Brightspace ##
 
-We will use Brightspace for class-related communication. Please ask (and answer) questions in the Padlet, which you can find under `General Information`. There is no such thing as a stupid or trivial question! If a classmates asks a question you know an answer to, try and answer. The padlet is not only for instructor-student interaction, it is for all students to share knowledge and resources, and to get answers as fast as possible. 
+We will use Brightspace for class-related communication. Please ask (and answer) questions in the Discussion forum under `Here you can ask common questions`. There is no such thing as a stupid or trivial question! If a classmates asks a question you know an answer to, try and answer. The padlet is not only for instructor-student interaction, it is for all students to share knowledge and resources, and to get answers as fast as possible. 
 
-## Asking questions (on the Padlet, in class, and elsewhere) ##
+## Asking questions ##
 
 1. Google It First! Google the error Python gives you. English language errors will have more solutions online.
 2. Search existing online resources (Google, StackOverflow, etc.) and class discussion on the Padlet for answers. If the question has already been answered, you're done!
@@ -131,4 +133,4 @@ We will use Brightspace for class-related communication. Please ask (and answer)
 
 ## Disability Resources ##
 
-Your experience in this class is important to me. If you have already established accommodations with Special Educational Support (SES), please communicate your approved accommodations to me at your earliest convenience so we can discuss your needs in this course. If you have not yet established services through SES, but have a temporary health condition or permanent disability that requires accommodations (conditions include but not limited to; mental health, attention-related, learning, vision, hearing, physical or health impacts), you are welcome to contact 8716 2720 (Monday & Thursday 9-12, Tuesday 13-15) or email sps@au.dk. SES offers resources and coordinates reasonable accommodations for students with disabilities and/or temporary health conditions. Reasonable accommodations are established through an interactive process between you, your instructor(s) and SES. It is the policy and practice of the Aarhus University to create inclusive and accessible learning environment and ensure that all students have the opportunity to educate themselves on equal terms even if they have a disability.
+Your experience in this class is important to us. If you have already established accommodations with Special Educational Support (SES), please communicate your approved accommodations to us at your earliest convenience so we can discuss your needs in this course. If you have not yet established services through SES, but have a temporary health condition or permanent disability that requires accommodations (conditions include but not limited to; mental health, attention-related, learning, vision, hearing, physical or health impacts), you are welcome to contact 8716 2720 (Monday & Thursday 9-12, Tuesday 13-15) or email sps@au.dk. SES offers resources and coordinates reasonable accommodations for students with disabilities and/or temporary health conditions. Reasonable accommodations are established through an interactive process between you, your instructor(s) and SES. It is the policy and practice of the Aarhus University to create inclusive and accessible learning environment and ensure that all students have the opportunity to educate themselves on equal terms even if they have a disability.
