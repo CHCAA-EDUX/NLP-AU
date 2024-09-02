@@ -19,7 +19,7 @@ def batch(dataset: Iterable, batch_size: int) -> Iterable:
     """
     iterable_dataset = iter(dataset)
     while True:
-        chunk = tuple(islice(iterable_dataset, batch_size))
+        chunk = tuple(islice(iterable_dataset, batch_size)) # slicing with non-negatives
         if not chunk: # when the dataset is empty break the while loop
             break
         yield chunk

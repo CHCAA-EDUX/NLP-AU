@@ -1,16 +1,5 @@
-# Classroom 3 - Machine learning with ```pytorch```
+# Class 3 - Exploring word embeddings with gensim
 
-Today, we'll be looking at how to build a very simple machine learning pipeline using ```pytorch```, starting with running some linear regression on synthetic data.
+Today we'll be looking at a bit more critically and analytically at how word embeddings encode semantic information. We'll do this by working in groups through a series of exercises that I've created.
 
----
-## Assignments
-
-We'll start with some feedback on assignments
-
-## Notebook walkthrough
-
-We're then going to walk our way through a ```pytorch``` pipeline notebook, with ample time to stop and ask questions about what is happening.
-
-## Next assignment
-
-No assignment due for next week.
+At the moment, we're not so focused on how we can train our own word embeddings. You can see an example of how we might do that in pytorch ([see here](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html)), or more simply using gensim which we'll learn about today ([see here](https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html#training-your-own-model)).

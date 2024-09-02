@@ -1,8 +1,8 @@
-# Natural Language Processing - Autumn 2022
+# Natural Language Processing - Autumn 2023
 
-This repository contains all of the code and data related to the module _Natural Language Processing_ taken as part of the  [_kandidatuddannelsen_ in Cognitive Science](https://masters.au.dk/cognitivescience) at Aarhus University.
+This repository contains all of the code and data related to the module _Natural Language Processing_ taken as part of the  [MSc in Cognitive Science](https://masters.au.dk/cognitivescience) at Aarhus University.
 
-This repository is in active development, with new material being pushed on a weekly basis. 
+This repository is in active development, with new material being pushed on a weekly basis. Slides will be uploaded to Brightspace.
 
 ## Technicalities
 
@@ -18,14 +18,20 @@ This repository has been initialised with the following directory structure:
 
 | Column | Description|
 |--------|:-----------|
-```classes``` | Instructions for each of the classrooms, including assignments.
+```classes``` | Instructions for each of the classrooms.
 ```src``` | A folder for Python scripts developed in class.
-```syllabus```| Containing a markdown file with the course syllabus and readings.
+```syllabus```| Containing a markdown file with the course syllabus and readings, as well as a file listing additional resources.
+```nbs```| Will contain the solutions to assignments and classes.
+```data```| Will contain data we will use for some of the exercises.
+
+## Classroom instruction
+The general structure for classroom instruction is the following: I will present you with a few exercises, which you can work on solving in class and at home. The week after, I will provide my solution to the exercise, and briefly guide you through it. We can discuss your own solutions in class too, but I will not be able to provide individualized feedback (and assignments will not be graded).
 
 
 ## Class times
 
-Lectures take place on Wednesdays from 08-10; classroom instruction is on Friday from 12-14. For security reasons, I'm not going to post the room numbers to Github - you can find this via your [AU Timetable](https://timetable.au.dk)
+Lectures take place on Tuesdays from 08-10; classroom instruction is on Wednesday from 10-12. For security reasons, I'm not going to post the room numbers to Github - you can find this via your [AU Timetable](https://timetable.au.dk).
+**NOTE**: the location for October 25th is _different_ from all other weeks!
 
 ## Course overview and readings
 
@@ -35,8 +41,9 @@ Make sure to read the studieording first if you have any questions relating to t
 
 ## Contact details
 
-Your lecturer for this course will be [Ross](au.dk/en/rdkm@cas). If you have any problems with the course or questions that you want to ask, just get in touch.
+Your lecturer for this course will be [Roberta](https://pure.au.dk/portal/en/persons/roberta-rocca(079b23a2-46f6-4a00-9cd6-9a1339101208)/persons/roberta-rocca(079b23a2-46f6-4a00-9cd6-9a1339101208).html). 
+If you have any problems with the course or questions that you want to ask, just get in touch.
 
-All communication to you will be sent _both_ on Slack _and_ via Blackboard. If you need to get in touch with Ross, Slack should be the first place to try - you'll likely get a quicker response!
+All communication to you will be sent via Brightspace.
 
 
