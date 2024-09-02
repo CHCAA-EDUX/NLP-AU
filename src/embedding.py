@@ -6,10 +6,9 @@ import numpy as np
 
 def gensim_to_torch_embedding(gensim_wv):
     """
-    - Add type hints on input and output
-    - add function description
-    - understand the pad and unk embeddings, add an argument which makes these optional. 
-        E.g. add_padding = True and add_unknown = True
+    Takes gensim word embeddings as inputs, and returns:
+    - an embedding layer with vectors as weights
+    - the layer/model's vocabulary
     """
     embedding_size = gensim_wv.vectors.shape[1]
 

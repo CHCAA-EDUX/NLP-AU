@@ -133,3 +133,10 @@ dmypy.json
 syllabus/classes/class2/train_corpus/0.txt
 *.icloud
 syllabus/classes/class3/tmp.py
+
+# Solutions to assignments
+solutions/*
+backups/*
+requirements.txt
+*model.pt
+# 

@@ -1,15 +1,9 @@
-# Class 9 - Exploring BERT-style transformers
+# Class 9 - Text Generation with LLMs, in-context learning, and model fine-tuning
 
-Today we will be thinking about how we can explore and interpret transformer models and the attention weights that they learn.
+Last week, we worked with models which can be run (for inference) on local machines or UCloud CPUs. Some of them were doing a reasonable jobs in some tasks, but, overall, we saw a lot of room for improvement. Today, we focus on three ways to achieve better instruction-based performance:
+- Using large language models in a zero-shot fashion: as these models are prohibitively big, we will use a brand new library (`Petals`) to access them in a distributed fashion, and get a sense for what these models are capable of;
+- In-context learning (one- or few-shot)
+- Instruction fine-tuning
 
-To do that, we'll use a few readymade tools which have been designed to solve this problem. I've provided you with code and links to three different tools, along with some questions and tasks to be working on in small groups.
-
-We'll also have some time at the start to talk about the Notebook from last week, finetuning a pretrained model for a specific task (such as NER).
-
----
-## Outline
-
-- Discuss any issues related to the notebook last week
-- Present notebook for today with tools for exploring and interperting
-- Work with the different frameworks
-- Gain greater familiarity with the ecosystem surrounding transformers
+This mirrors the content of the latest lecture, which focused on advanced approaches to NLG.
+Note that, to access GPUs, we will be running the notebooks on Google Colab.
