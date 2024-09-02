@@ -1,8 +1,8 @@
-# Natural Language Processing - Autumn 2023
+# Natural Language Processing - Autumn 2024
 
 This repository contains all of the code and data related to the module _Natural Language Processing_ taken as part of the  [MSc in Cognitive Science](https://masters.au.dk/cognitivescience) at Aarhus University.
 
-This repository is in active development, with new material being pushed on a weekly basis. Slides will be uploaded to Brightspace.
+This repository is in active development, with new material being pushed on a weekly basis. Slides will be uploaded to Brightspace after classes.
 
 ## Technicalities
 
@@ -25,25 +25,22 @@ This repository has been initialised with the following directory structure:
 ```data```| Will contain data we will use for some of the exercises.
 
 ## Classroom instruction
-The general structure for classroom instruction is the following: I will present you with a few exercises, which you can work on solving in class and at home. The week after, I will provide my solution to the exercise, and briefly guide you through it. We can discuss your own solutions in class too, but I will not be able to provide individualized feedback (and assignments will not be graded).
+The general structure for classroom instruction is the following: We will present you with a few exercises, which you can work on solving in class and at home. The week after, we will provide my solution to the exercise, and briefly guide you through it. We can discuss your own solutions in class too, but we will not be able to provide individualized feedback (and assignments will not be graded).
 
 
 ## Class times
 
-Lectures take place on Tuesdays from 08-10; classroom instruction is on Wednesday from 10-12. For security reasons, I'm not going to post the room numbers to Github - you can find this via your [AU Timetable](https://timetable.au.dk).
-**NOTE**: the location for October 25th is _different_ from all other weeks!
+Lectures take place on Tuesday from 10-12; classroom instruction is on Thursday from 10-12. For security reasons, I'm not going to post the room numbers to Github - you can find this via your [AU Timetable](https://timetable.au.dk).
 
 ## Course overview and readings
 
-A detailed breakdown of the course structure and the associated readings can be found in the [syllabus](syllabus/readme.md). Also, be sure to familiarize yourself with the [_studieordning_](https://eddiprod.au.dk/EDDI/webservices/DokOrdningService.cfc?method=visGodkendtOrdning&dokOrdningId=17274&sprog=en) for the course, especially in relation to examination and academic regulations. 
+A detailed breakdown of the course structure and the associated readings can be found in the [syllabus](syllabus/readme.md). Also, be sure to familiarize yourself with the [_studieordning_](https://kursuskatalog.au.dk/en/course/123489/Natural-Language-Processing) for the course, especially in relation to examination and academic regulations. 
 
 Make sure to read the studieording first if you have any questions relating to the course organisation, exam format, and so forth.
 
 ## Contact details
 
-Your lecturer for this course will be [Roberta](https://pure.au.dk/portal/en/persons/roberta-rocca(079b23a2-46f6-4a00-9cd6-9a1339101208)/persons/roberta-rocca(079b23a2-46f6-4a00-9cd6-9a1339101208).html). 
+Your lecturer for this course will be [Kenneth](https://pure.au.dk/portal/da/persons/kenneth.enevoldsen%40cas.au.dk), [Sara](https://www.au.dk/sarakolding@clin.au.dk) and [Jan](https://pure.au.dk/portal/da/persons/jan.kostkan%40cas.au.dk). 
 If you have any problems with the course or questions that you want to ask, just get in touch.
 
 All communication to you will be sent via Brightspace.
-
-
