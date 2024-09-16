@@ -12,7 +12,7 @@ Steps:
 # bash path_to_folder/setup_git.sh
 
 git config --global user.email "yourmail@mail.com"
-git config --global user.name "Your Name (UCloud)"
+git config --global user.name "githubusername"
 ```
 
 Make sure to fill in the correct username and email. This will set up GitHub, but you also need to:
