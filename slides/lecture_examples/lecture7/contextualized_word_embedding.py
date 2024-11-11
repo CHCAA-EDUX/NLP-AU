@@ -12,6 +12,12 @@ encoded_input = tokenizer(text, return_tensors='pt')
 
 encoded_input.input_ids.shape # torch.Size([1, 12])
 
+# print token ids
+print(encoded_input.input_ids)
+
+# print tokens
+print(tokenizer.convert_ids_to_tokens(encoded_input.input_ids[0]))
+
 # embed ids and contextualize 
 output = model(**encoded_input)
 
